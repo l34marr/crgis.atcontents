@@ -1,0 +1,34 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="crgis.atcontents">
+
+  <include package="plone.app.contentmenu" />
+
+  <!-- -*- extra stuff goes here -*- -->
+  <browser:page
+      for="..interfaces.ITemple"
+      name="temple_view"
+      class=".temple.TempleView"
+      permission="zope2.View"
+      />
+  <browser:page
+      for="..interfaces.IBiXieWu"
+      name="bixiewu_view"
+      class=".bixiewu.BiXieWuView"
+      permission="zope2.View"
+      />
+  <browser:page
+      for="..interfaces.IPilgrimage"
+      name="pilgrimage_view"
+      class=".pilgrimage.PilgrimageView"
+      permission="zope2.View"
+      />
+  <browser:page
+      for="..interfaces.ISchedule"
+      name="schedule_view"
+      class=".schedule.ScheduleView"
+      permission="zope2.View"
+      />
+
+</configure>

@@ -1,0 +1,41 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    i18n_domain="crgis.atcontents">
+
+  <!-- configure your content components here -->
+  <include file="vocabularies.zcml" />
+  
+  <!-- -*- extra stuff goes here -*- -->
+  <class class=".photo.Photo">
+    <require
+        permission="zope2.View"
+        interface="..interfaces.IPhoto"
+        />
+  </class>
+  <class class=".schedule.Schedule">
+    <require
+        permission="zope2.View"
+        interface="..interfaces.ISchedule"
+        />
+  </class>
+  <class class=".pilgrimage.Pilgrimage">
+    <require
+        permission="zope2.View"
+        interface="..interfaces.IPilgrimage"
+        />
+  </class>
+  <class class=".bixiewu.BiXieWu">
+    <require
+        permission="zope2.View"
+        interface="..interfaces.IBiXieWu"
+        />
+  </class>
+  <class class=".temple.Temple">
+    <require
+        permission="zope2.View"
+        interface="..interfaces.ITemple"
+        />
+  </class>
+
+</configure>

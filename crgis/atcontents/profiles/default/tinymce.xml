@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<object>
+ <resourcetypes>
+  <linkable>
+   <element value="Photo"/>
+  </linkable>
+  <allow_captioned_images value="True"/>
+  <imageobjects>
+   <element value="Photo"/>
+  </imageobjects>
+  <link_using_uids value="True"/>
+ </resourcetypes>
+ <layout>
+  <autoresize value="True"/>
+ </layout>
+ <toolbar>
+  <toolbar_cut value="True"/>
+  <toolbar_paste value="True"/>
+  <toolbar_redo value="True"/>
+  <toolbar_media value="True"/>
+  <toolbar_removeformat value="True"/>
+  <toolbar_undo value="True"/>
+  <toolbar_strikethrough value="True"/>
+  <toolbar_pasteword value="True"/>
+  <toolbar_print value="True"/>
+  <toolbar_copy value="True"/>
+  <toolbar_pastetext value="True"/>
+ </toolbar>
+</object>

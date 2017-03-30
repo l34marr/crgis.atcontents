@@ -1,0 +1,368 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="crgis.atcontents" >
+
+<body>
+
+<metal:content-core fill-slot="content-core">
+    <metal:block define-macro="content-core">
+<tal:block define="isAnon context/@@plone_portal_state/anonymous">
+
+<p align="right"
+   tal:define="itemId context/getId;">
+  <a href=""
+     tal:attributes="href python: 'http://crgis.rchss.sinica.edu.tw/crgis_tw/crgis/cultural.php?k='+itemId;
+                     title itemId;
+                     target string:_blank"
+     i18n:translate="view_on_map">View on Map</a>
+</p>
+
+<dl class="enableFormTabbing">
+
+<dt id="fieldsetlegend-def"
+    i18n:translate="default_info">Default Info</dt>
+<dt id="fieldsetlegend-apd"
+    i18n:translate="appendix_info">Appendix Info</dt>
+<dt id="fieldsetlegend-pil"
+    tal:condition="python: len(view.getTemplePilgrimage(context)) != 0"
+    i18n:translate="pilgrimage_info">Pilgrimage Info</dt>
+<dt id="fieldsetlegend-fsv"
+    tal:condition="python: len(view.getTempleFestival(context)) != 0"
+    i18n:translate="festival_info">Festival Info</dt>
+<dt id="fieldsetlegend-bxw"
+    tal:condition="python: len(view.getTempleBiXieWu(context)) != 0"
+    i18n:translate="bixiewu_info">BiXieWu Info</dt>
+
+<dd id="fieldset-def">
+
+<fieldset>
+<legend i18n:translate="basic_info">Basic Info</legend>
+  <div tal:condition="context/data_src">
+  <tal:field i18n:translate="">Data Source</tal:field>:
+  <span tal:replace="python:view.t_title('data_src',context.data_src)" />
+  </div>
+  <div tal:condition="context/coordinate">
+  <tal:field i18n:translate="">Coordinate Type</tal:field>:
+  <span tal:replace="python:view.t_title('coordinate',context.coordinate)" />
+  </div>
+  <div tal:condition="context/facing">
+  <tal:field i18n:translate="">Sitting Facing</tal:field>:
+  <span metal:use-macro="python:context.widget('facing', mode='view')" />
+  </div>
+  <div tal:condition="context/address">
+  <tal:address i18n:translate="address">Address:</tal:address>
+  <span metal:use-macro="python:context.widget('address', mode='view')" />
+  </div>
+  <div tal:condition="context/tel">
+  <tal:tel i18n:translate="tel">Telephone:</tal:tel>
+  <span metal:use-macro="python:context.widget('tel', mode='view')" />
+  </div>
+  <div tal:condition="context/homepage">
+  <tal:homepage i18n:translate="homepage">Homepage:</tal:homepage>
+  <a href=""
+     tal:attributes="href context/homepage;
+                     target string:_blank"
+     i18n:translate="view_homepage">View Homepage</a>
+  </div>
+  <div tal:define="deities context/deity_host|nothing"
+       tal:condition="deities">
+  <tal:deity_prm i18n:translate="deity_host">Primary Deities:</tal:deity_prm>
+  <tal:deities repeat="deity deities">
+    <span tal:replace="python: context.deity_term(deity)">Deity Name</span>
+  </tal:deities>
+  </div>
+  <div tal:condition="context/deity_host_o">
+  <tal:deity_prm_o i18n:translate="deity_host_o">Primary Deities (Other):</tal:deity_prm_o>
+  <span metal:use-macro="python:context.widget('deity_host_o', mode='view')" />
+  </div>
+  <div tal:condition="context/deity_host_a">
+  <tal:deity_prm_a i18n:translate="deity_host_a">Primary Deity Alias:</tal:deity_prm_a>
+  <span metal:use-macro="python:context.widget('deity_host_a', mode='view')" />
+  </div>
+  <div tal:define="deities context/deity_company|nothing"
+       tal:condition="deities">
+  <tal:deity_scd i18n:translate="deity_guest">Secondary Deities:</tal:deity_scd>
+  <div tal:repeat="deity deities">
+    <span tal:replace="python: context.deity_term(deity)">Deity Name</span>
+  </div>
+  </div>
+
+  <div tal:condition="context/era">
+  <tal:era i18n:translate="era">Established Year:</tal:era>
+  <span metal:use-macro="python:context.widget('era', mode='view')" />
+  </div>
+  <div tal:condition="context/era_1">
+  <tal:era_1 i18n:translate="era_1">Established Year (Collection):</tal:era_1>
+  <span metal:use-macro="python:context.widget('era_1', mode='view')" />
+  </div>
+  <div tal:condition="context/era_2">
+  <tal:era_2 i18n:translate="era_2">Established Year (Overview):</tal:era_2>
+  <span metal:use-macro="python:context.widget('era_2', mode='view')" />
+  </div>
+  <div tal:condition="context/era_ref">
+  <tal:era_ref i18n:translate="era_ref">Established Year Ref:</tal:era_ref>
+  <span metal:use-macro="python:context.widget('era_ref', mode='view')" />
+  </div>
+
+  <div tal:condition="context/history">
+  <tal:history i18n:translate="history">History:</tal:history>
+  <span metal:use-macro="python:context.widget('history', mode='view')" />
+  </div>
+  <div tal:condition="context/introduction">
+  <tal:intro i18n:translate="introduction">Introduction:</tal:intro>
+  <span metal:use-macro="python:context.widget('introduction', mode='view')" />
+  </div>
+  <div tal:condition="context/deity_accompany">
+  <tal:deity_o i18n:translate="deity_o">Deities (Other):</tal:deity_o>
+  <span metal:use-macro="python:context.widget('deity_accompany', mode='view')" />
+  </div>
+  <div tal:condition="context/worship">
+  <tal:worship i18n:translate="worship">Worship:</tal:worship>
+  <span metal:use-macro="python:context.widget('worship', mode='view')" />
+  </div>
+</fieldset>
+
+<fieldset>
+<legend i18n:translate="moi_info">MOI Registry Info</legend>
+  <div tal:condition="context/registered">
+  <tal:registered i18n:translate="registered">Registered Name:</tal:registered>
+  <span metal:use-macro="python:context.widget('registered', mode='view')" />
+  </div>
+  <div tal:condition="context/building">
+  <tal:building i18n:translate="building">Building:</tal:building>
+  <span tal:replace="python:view.t_title('building',context.building)" />
+  </div>
+  <div tal:condition="context/building_o">
+  <tal:building_o i18n:translate="building_o">Building (Other):</tal:building_o>
+  <span metal:use-macro="python:context.widget('building_o', mode='view')" />
+  </div>
+  <div tal:condition="context/religion">
+  <tal:religion i18n:translate="religion">Religion:</tal:religion>
+  <span tal:replace="python:view.t_title('religion',context.religion)" />
+  </div>
+  <div tal:condition="context/religion_o">
+  <tal:religion_o i18n:translate="religion_o">Religion (Other):</tal:religion_o>
+  <span metal:use-macro="python:context.widget('religion_o', mode='view')" />
+  </div>
+  <div tal:condition="context/funding">
+  <tal:funding i18n:translate="funding">Funding:</tal:funding>
+  <span tal:replace="python:view.t_title('funding',context.funding)" />
+  </div>
+  <div tal:condition="context/organizing">
+  <tal:organizing i18n:translate="organizing">Organizing:</tal:organizing>
+  <span tal:replace="python:view.t_title('organizing',context.organizing)" />
+  </div>
+  <div tal:condition="context/organizing_o">
+  <tal:organizing_o i18n:translate="organizing_o">Organizing (Other):</tal:organizing_o>
+  <span metal:use-macro="python:context.widget('organizing_o', mode='view')" />
+  </div>
+  <div tal:condition="context/in_charge">
+  <tal:in_charge i18n:translate="in_charge">Person in Charge:</tal:in_charge>
+  <span metal:use-macro="python:context.widget('in_charge', mode='view')" />
+  </div>
+</fieldset>
+
+<fieldset tal:condition="python:context.overview or context.antiquity or context.narrate or context.non_narrate">
+<legend i18n:translate="outlook">Outlook</legend>
+  <div tal:condition="context/overview">
+  <tal:overview i18n:translate="overview">Overview:</tal:overview>
+  <span metal:use-macro="python:context.widget('overview', mode='view')" />
+  </div>
+  <div tal:condition="context/antiquity">
+  <tal:antiquity i18n:translate="antiquity">Antiquity:</tal:antiquity>
+  <span metal:use-macro="python:context.widget('antiquity', mode='view')" />
+  </div>
+  <div tal:condition="context/narrate">
+  <tal:narrate i18n:translate="narrate">Narrate:</tal:narrate>
+  <span metal:use-macro="python:context.widget('narrate', mode='view')" />
+  </div>
+  <div tal:condition="context/non_narrate">
+  <tal:non_narrate i18n:translate="non_narrate">Non Narrate:</tal:non_narrate>
+  <span metal:use-macro="python:context.widget('non_narrate', mode='view')" />
+  </div>
+</fieldset>
+
+<fieldset tal:condition="python:context.academic or context.literature">
+<legend i18n:translate="references">References</legend>
+  <div tal:condition="context/academic">
+  <tal:academic i18n:translate="academic">Academic</tal:academic>
+  <span metal:use-macro="python:context.widget('academic', mode='view')" />
+  </div>
+  <div tal:condition="context/literature">
+  <tal:literature i18n:translate="literature">Literature</tal:literature>
+  <span metal:use-macro="python:context.widget('literature', mode='view')" />
+  </div>
+</fieldset>
+
+<fieldset tal:condition="python:context.fill_in or context.fill_date">
+<legend i18n:translate="booking_info">Booking Info</legend>
+  <div tal:condition="context/fill_in">
+  <tal:fill_in i18n:translate="fill_in">By Who</tal:fill_in>
+  <span metal:use-macro="python:context.widget('fill_in', mode='view')" />
+  </div>
+  <div tal:condition="context/fill_date">
+  <tal:fill_date i18n:translate="fill_date">By When</tal:fill_date>
+  <span metal:use-macro="python:context.widget('fill_date', mode='view')" />
+  </div>
+</fieldset>
+</dd>
+
+<dd id="fieldset-apd">
+
+  <div tal:condition="context/jstq">
+  祭祀族群：
+  <span metal:use-macro="python:context.widget('jstq', mode='view')" />
+  </div>
+  <div tal:condition="context/jstq_o">
+  祭祀族群 (其他)：
+  <span metal:use-macro="python:context.widget('jstq_o', mode='view')" />
+  </div>
+  <div tal:condition="context/jsfw">
+  祭祀範圍：
+  <span metal:use-macro="python:context.widget('jsfw', mode='view')" />
+  </div>
+  <div tal:condition="context/xyfw">
+  信仰範圍：
+  <span metal:use-macro="python:context.widget('xyfw', mode='view')" />
+  </div>
+  <div tal:define="flxts context/flxt|nothing"
+       tal:condition="flxts">
+  分靈系統：
+  <tal:block repeat="flxt flxts">
+  <span tal:replace="python:view.t_title('flxt',flxt)" />
+  </tal:block>
+  </div>
+  <div tal:condition="context/flxt_o">
+  分靈系統 (其他)：
+  <span metal:use-macro="python:context.widget('flxt_o', mode='view')" />
+  </div>
+  <div tal:condition="context/ymmy">
+  移民廟宇：
+  <span metal:use-macro="python:context.widget('ymmy', mode='view')" />
+  </div>
+  <div tal:condition="context/ymmy_o">
+  移民廟宇 (其他)：
+  <span metal:use-macro="python:context.widget('ymmy_o', mode='view')" />
+  </div>
+  <div tal:condition="context/xhly">
+  香火來源：
+  <span metal:use-macro="python:context.widget('xhly', mode='view')" />
+  </div>
+  <div tal:condition="context/xhly_o">
+  香火來源 (其他)：
+  <span metal:use-macro="python:context.widget('xhly_o', mode='view')" />
+  </div>
+  <div tal:condition="context/nlqs">
+  年例請神：
+  <span metal:use-macro="python:context.widget('nlqs', mode='view')" />
+  </div>
+  <div tal:condition="context/nlqs_o">
+  年例請神 (其他)：
+  <span metal:use-macro="python:context.widget('nlqs_o', mode='view')" />
+  </div>
+  <div tal:condition="context/wyxx">
+  王爺選項：
+  <span metal:use-macro="python:context.widget('wyxx', mode='view')" />
+  </div>
+  <div tal:condition="context/wyxx_o">
+  王爺選項 (其他)：
+  <span metal:use-macro="python:context.widget('wyxx_o', mode='view')" />
+  </div>
+
+<fieldset tal:condition="python:context.medicine or context.luck">
+<legend>籤詩</legend>
+  <div tal:define="medicines context/medicine|nothing"
+       tal:condition="medicines">
+  藥籤:
+  <tal:block repeat="medicine medicines">
+  <span tal:replace="python:view.t_title('medicine',medicine)" />
+  </tal:block>
+  </div>
+  <div tal:define="lucks context/luck|nothing"
+       tal:condition="lucks">
+  運籤:
+  <tal:block repeat="luck lucks">
+  <span tal:replace="python:view.t_title('luck',luck)" />
+  </tal:block>
+  </div>
+</fieldset>
+  <div tal:condition="context/organization">
+  信徒組織：
+  <span metal:use-macro="python:context.widget('organization', mode='view')" />
+  </div>
+  <div tal:condition="context/desc_o">
+  其他可供記述事項：
+  <span metal:use-macro="python:context.widget('desc_o', mode='view')" />
+  </div>
+</dd>
+
+<dd id="fieldset-pil"
+    tal:condition="python: len(view.getTemplePilgrimage(context)) != 0">
+  <div tal:define="pilgrimages python: view.getTemplePilgrimage(context)"
+       tal:condition="pilgrimages">
+  <ol>
+  <tal:block repeat="pil pilgrimages">
+    <span>
+      <li>
+        <a href=""
+           tal:attributes="href pil/url;
+                           target string:_blank"
+           tal:content="pil/full_title">Pilgrimage</a>
+      </li>
+    </span>
+  </tal:block>
+  </ol>
+  </div>
+</dd>
+
+<dd id="fieldset-fsv"
+    tal:condition="python: len(view.getTempleFestival(context)) != 0">
+  <div tal:define="festivals python: view.getTempleFestival(context)"
+       tal:condition="festivals">
+  <ol>
+  <tal:block repeat="fsv festivals">
+    <span>
+      <li>
+        <a href=""
+           tal:attributes="href fsv/url;
+                           target string:_blank"
+           tal:content="fsv/full_title">Festival</a>
+      </li>
+    </span>
+  </tal:block>
+  </ol>
+  </div>
+</dd>
+
+<dd id="fieldset-bxw"
+    tal:condition="python: len(view.getTempleBiXieWu(context)) != 0">
+  <div tal:define="items python: view.getTempleBiXieWu(context)"
+       tal:condition="items">
+  <ol>
+  <tal:block repeat="bxw items">
+    <span>
+      <li>
+        <a href=""
+           tal:attributes="href bxw/url;
+                           target string:_blank"
+           tal:content="bxw/title">BiXieWu</a>
+      </li>
+    </span>
+  </tal:block>
+  </ol>
+  </div>
+</dd>
+
+</dl>
+
+</tal:block>
+    </metal:block>
+</metal:content-core>
+
+</body>
+
+</html>

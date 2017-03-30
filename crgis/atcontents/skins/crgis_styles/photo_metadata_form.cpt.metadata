@@ -1,0 +1,11 @@
+[default]
+title=Photo Metadata
+
+[validators]
+validators=validate_photo_metadata
+validators..Cancel=
+
+[actions]
+action.success=traverse_to:string:photo_metadata
+action.success..Cancel=redirect_to:request/orig_template|string:folder_contents
+action.failure=traverse_to:string:photo_metadata_form

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<object name="portal_skins" meta_type="Plone Skins Tool">
+  <object name="crgis_styles"
+      meta_type="Filesystem Directory View"
+      directory="crgis.atcontents:skins/crgis_styles" />
+  <skin-path name="*">
+    <layer name="crgis_styles" insert-after="custom" />
+  </skin-path>
+</object>

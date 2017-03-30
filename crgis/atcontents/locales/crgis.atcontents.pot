@@ -1,0 +1,1348 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-01-21 10:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: crgis.atcontents\n"
+
+#: ./content/photo.py:123
+msgid "2 digits for Day."
+msgstr ""
+
+#: ./content/photo.py:114
+msgid "2 digits for Month."
+msgstr ""
+
+#: ./content/photo.py:105
+msgid "4 digits for Year."
+msgstr ""
+
+#: ./content/bixiewu.py:368
+#: ./content/temple.py:620
+msgid "A String Based on Abbreviation of Administrative Area."
+msgstr ""
+
+#: ./content/vocabularies.py:26
+msgid "Academic"
+msgstr ""
+
+#: ./content/temple.py:377
+msgid "Academic Works"
+msgstr ""
+
+#: ./content/temple.py:194
+msgid "Address"
+msgstr ""
+
+#: ./content/vocabularies.py:559
+msgid "AnZhenLuKou"
+msgstr ""
+
+#: ./content/temple.py:344
+#: ./content/vocabularies.py:659
+msgid "Antiquities"
+msgstr ""
+
+#: ./content/photo.py:48
+msgid "Attached To"
+msgstr ""
+
+#: ./content/photo.py:49
+msgid "Attached To Which Fields."
+msgstr ""
+
+#: ./content/vocabularies.py:511
+msgid "BaGua"
+msgstr ""
+
+#: ./browser/bixiewu.pt:203
+#: ./content/bixiewu.py:355
+#: ./interfaces/bixiewu.py:197
+msgid "Base Height"
+msgstr ""
+
+#: ./content/bixiewu.py:333
+#: ./interfaces/bixiewu.py:185
+msgid "Base Length"
+msgstr ""
+
+#: ./browser/bixiewu.pt:207
+#: ./content/bixiewu.py:344
+#: ./interfaces/bixiewu.py:191
+msgid "Base Width"
+msgstr ""
+
+#: ./content/vocabularies.py:507
+msgid "BeiWenFuZhou"
+msgstr ""
+
+#: ./content/temple.py:595
+msgid "Believer Organization"
+msgstr ""
+
+#: ./content/vocabularies.py:630
+#: ./profiles/default/types/BiXieWu.xml
+msgid "BiXieWu"
+msgstr ""
+
+#: ./content/bixiewu.py:371
+msgid "BiXieWu Title"
+msgstr ""
+
+#: ./browser/bixiewu.pt:55
+#: ./content/bixiewu.py:72
+#: ./interfaces/bixiewu.py:47
+msgid "BiXieWu Type"
+msgstr ""
+
+#: ./content/pilgrimage.py:22
+#: ./content/schedule.py:24
+msgid "Body"
+msgstr ""
+
+#: ./content/temple.py:333
+#: ./content/vocabularies.py:658
+msgid "Building Overview"
+msgstr ""
+
+#: ./content/temple.py:133
+msgid "Building Type"
+msgstr ""
+
+#: ./content/temple.py:144
+msgid "Building Type Other"
+msgstr ""
+
+#: ./content/photo.py:37
+#: ./interfaces/photo.py:14
+msgid "Category"
+msgstr ""
+
+#: ./content/bixiewu.py:367
+#: ./content/temple.py:619
+msgid "Code"
+msgstr ""
+
+#: ./browser/bixiewu.pt:163
+#: ./content/bixiewu.py:244
+#: ./interfaces/bixiewu.py:137
+msgid "Color"
+msgstr ""
+
+#: ./content/vocabularies.py:314
+msgid "Committee"
+msgstr ""
+
+#: ./browser/bixiewu.pt:59
+#: ./content/bixiewu.py:83
+#: ./interfaces/bixiewu.py:53
+msgid "Common Era"
+msgstr ""
+
+#: ./browser/bixiewu.pt:51
+#: ./browser/temple.pt:52
+#: ./content/bixiewu.py:61
+msgid "Coordinate Type"
+msgstr ""
+
+#: ./browser/bixiewu.pt:39
+#: ./content/bixiewu.py:34
+#: ./content/photo.py:59
+msgid "County"
+msgstr ""
+
+#: ./browser/bixiewu.pt:34
+#: ./browser/temple.pt:48
+#: ./content/bixiewu.py:23
+msgid "Data Source"
+msgstr ""
+
+#: ./content/vocabularies.py:316
+msgid "Deacon"
+msgstr ""
+
+#: ./content/temple.py:300
+msgid "Deities Accompany"
+msgstr ""
+
+#: ./content/temple.py:101
+msgid "Deity Company"
+msgstr ""
+
+#: ./content/temple.py:65
+msgid "Deity Host"
+msgstr ""
+
+#: ./content/temple.py:86
+msgid "Deity Host Alias"
+msgstr ""
+
+#: ./content/temple.py:77
+msgid "Deity Host Other"
+msgstr ""
+
+#: ./content/temple.py:607
+msgid "Description Other"
+msgstr ""
+
+#: ./content/temple.py:378
+msgid "Enter Academic Works."
+msgstr ""
+
+#: ./content/temple.py:345
+msgid "Enter Antiquities."
+msgstr ""
+
+#: ./content/temple.py:334
+msgid "Enter Building Overview."
+msgstr ""
+
+#: ./content/bixiewu.py:84
+#: ./interfaces/bixiewu.py:55
+msgid "Enter Common Era."
+msgstr ""
+
+#: ./content/temple.py:408
+msgid "Enter Date."
+msgstr ""
+
+#: ./content/temple.py:301
+msgid "Enter Deities Accompany."
+msgstr ""
+
+#: ./content/bixiewu.py:191
+#: ./interfaces/bixiewu.py:115
+msgid "Enter Environmental Description."
+msgstr ""
+
+#: ./content/bixiewu.py:95
+#: ./interfaces/bixiewu.py:61
+msgid "Enter Era Reference."
+msgstr ""
+
+#: ./content/temple.py:261
+msgid "Enter Establishment History."
+msgstr ""
+
+#: ./content/temple.py:230
+msgid "Enter Estimated Earliest Founding Year in Western Calendar."
+msgstr ""
+
+#: ./content/temple.py:239
+msgid "Enter Estimated Latest Founding Year in Western Calendar."
+msgstr ""
+
+#: ./content/bixiewu.py:104
+#: ./interfaces/bixiewu.py:67
+msgid "Enter Facing."
+msgstr ""
+
+#: ./content/temple.py:399
+msgid "Enter Filling Person Name."
+msgstr ""
+
+#: ./content/temple.py:323
+msgid "Enter Introduction and Photo."
+msgstr ""
+
+#: ./content/photo.py:96
+#: ./interfaces/photo.py:46
+msgid "Enter Latitude."
+msgstr ""
+
+#: ./content/temple.py:389
+msgid "Enter Literature Reference."
+msgstr ""
+
+#: ./content/photo.py:87
+#: ./interfaces/photo.py:40
+msgid "Enter Longtitude."
+msgstr ""
+
+#: ./content/temple.py:356
+msgid "Enter Narrate."
+msgstr ""
+
+#: ./content/temple.py:367
+msgid "Enter Non Narrate."
+msgstr ""
+
+#: ./content/photo.py:132
+#: ./interfaces/photo.py:70
+msgid "Enter Owner Name."
+msgstr ""
+
+#: ./content/photo.py:141
+#: ./interfaces/photo.py:76
+msgid "Enter Owner Organization."
+msgstr ""
+
+#: ./content/photo.py:150
+#: ./interfaces/photo.py:82
+msgid "Enter Owner Title."
+msgstr ""
+
+#: ./content/temple.py:290
+msgid "Enter References on Establishment."
+msgstr ""
+
+#: ./content/bixiewu.py:181
+#: ./interfaces/bixiewu.py:109
+msgid "Enter Spatial Attributes."
+msgstr ""
+
+#: ./content/bixiewu.py:35
+#: ./content/photo.py:60
+#: ./interfaces/bixiewu.py:25
+msgid "Enter Text."
+msgstr ""
+
+#: ./content/bixiewu.py:235
+#: ./interfaces/bixiewu.py:133
+msgid "Enter Village."
+msgstr ""
+
+#: ./content/bixiewu.py:126
+#: ./interfaces/bixiewu.py:79
+msgid "Enter Volume Description."
+msgstr ""
+
+#: ./content/temple.py:312
+msgid "Enter Worship."
+msgstr ""
+
+#: ./browser/bixiewu.pt:118
+#: ./content/bixiewu.py:190
+#: ./interfaces/bixiewu.py:113
+msgid "Environmental Description"
+msgstr ""
+
+#: ./browser/bixiewu.pt:63
+#: ./content/bixiewu.py:94
+#: ./interfaces/bixiewu.py:59
+msgid "Era Reference"
+msgstr ""
+
+#: ./content/temple.py:270
+msgid "Established Year by Taiwan Temple Collection"
+msgstr ""
+
+#: ./content/temple.py:279
+msgid "Established Year by Taiwan Temple Overview"
+msgstr ""
+
+#: ./browser/bixiewu.pt:109
+#: ./content/bixiewu.py:170
+#: ./interfaces/bixiewu.py:101
+msgid "Establishment Description"
+msgstr ""
+
+#: ./content/temple.py:260
+#: ./content/vocabularies.py:655
+msgid "Establishment History"
+msgstr ""
+
+#: ./content/temple.py:229
+msgid "Estimated Earliest Founding Year"
+msgstr ""
+
+#: ./content/temple.py:238
+msgid "Estimated Latest Founding Year"
+msgstr ""
+
+#: ./content/vocabularies.py:642
+msgid "Exact"
+msgstr ""
+
+#: ./browser/bixiewu.pt:67
+#: ./content/bixiewu.py:103
+#: ./interfaces/bixiewu.py:65
+msgid "Facing"
+msgstr ""
+
+#: ./content/temple.py:462
+msgid "FenLingXiTong"
+msgstr ""
+
+#: ./content/temple.py:474
+msgid "FenLingXiTong Other"
+msgstr ""
+
+#: ./content/vocabularies.py:563
+msgid "FenMu"
+msgstr ""
+
+#: ./content/vocabularies.py:505
+msgid "FengShiYe"
+msgstr ""
+
+#: ./content/vocabularies.py:27
+msgid "Fieldwork"
+msgstr ""
+
+#: ./content/temple.py:407
+msgid "Filling Date"
+msgstr ""
+
+#: ./content/temple.py:398
+msgid "Filling Person"
+msgstr ""
+
+#: ./content/vocabularies.py:315
+msgid "Foundation"
+msgstr ""
+
+#: ./content/temple.py:163
+msgid "Funding Type"
+msgstr ""
+
+#: ./content/vocabularies.py:643
+msgid "Fuzzy"
+msgstr ""
+
+#: ./content/vocabularies.py:41
+msgid "GIS Reference"
+msgstr ""
+
+#: ./content/vocabularies.py:40
+msgid "GPS"
+msgstr ""
+
+#: ./browser/bixiewu.pt:175
+#: ./content/bixiewu.py:278
+#: ./interfaces/bixiewu.py:155
+msgid "Gender"
+msgstr ""
+
+#: ./browser/bixiewu.pt:167
+#: ./content/bixiewu.py:255
+#: ./interfaces/bixiewu.py:143
+msgid "Genre"
+msgstr ""
+
+#: ./content/vocabularies.py:39
+msgid "GeoCoder"
+msgstr ""
+
+#: ./content/vocabularies.py:317
+msgid "Government"
+msgstr ""
+
+#: ./content/vocabularies.py:25
+msgid "Governmental"
+msgstr ""
+
+#: ./content/vocabularies.py:564
+msgid "HaiBian"
+msgstr ""
+
+#: ./content/temple.py:221
+msgid "Homepage"
+msgstr ""
+
+#: ./content/bixiewu.py:290
+#: ./interfaces/bixiewu.py:163
+msgid "In CentiMeter."
+msgstr ""
+
+#: ./content/temple.py:322
+#: ./content/vocabularies.py:657
+msgid "Introduction"
+msgstr ""
+
+#: ./content/temple.py:439
+msgid "JiSiFanWei"
+msgstr ""
+
+#: ./content/temple.py:440
+msgid "JiSiFanWei Description."
+msgstr ""
+
+#: ./content/temple.py:416
+msgid "JiSiZuQun"
+msgstr ""
+
+#: ./content/temple.py:428
+msgid "JiSiZuQun Other"
+msgstr ""
+
+#: ./content/vocabularies.py:509
+msgid "JianShi"
+msgstr ""
+
+#: ./content/vocabularies.py:544
+msgid "JuLuo"
+msgstr ""
+
+#: ./content/vocabularies.py:558
+msgid "JuLuoZhenSha"
+msgstr ""
+
+#: ./content/photo.py:95
+#: ./interfaces/photo.py:44
+msgid "Latitude"
+msgstr ""
+
+#: ./content/temple.py:388
+msgid "Literature Reference"
+msgstr ""
+
+#: ./browser/bixiewu.pt:80
+#: ./content/bixiewu.py:134
+#: ./interfaces/bixiewu.py:83
+msgid "Locational Attribute"
+msgstr ""
+
+#: ./content/photo.py:86
+#: ./interfaces/photo.py:38
+msgid "Longtitude"
+msgstr ""
+
+#: ./content/vocabularies.py:560
+msgid "LuChong"
+msgstr ""
+
+#: ./content/vocabularies.py:545
+msgid "LuKuo"
+msgstr ""
+
+#: ./content/temple.py:583
+msgid "Luck Divination"
+msgstr ""
+
+#: ./content/vocabularies.py:42
+msgid "Map"
+msgstr ""
+
+#: ./browser/bixiewu.pt:71
+#: ./content/bixiewu.py:113
+#: ./interfaces/bixiewu.py:71
+msgid "Material"
+msgstr ""
+
+#: ./content/temple.py:572
+msgid "Medicine Divination"
+msgstr ""
+
+#: ./skins/crgis_styles/photo_metadata.cpy:34
+msgid "Metadata changed."
+msgstr ""
+
+#: ./content/bixiewu.py:148
+msgid "Multiple Choice. Primary Choice Goes First."
+msgstr ""
+
+#: ./content/photo.py:38
+#: ./content/temple.py:417
+#: ./interfaces/photo.py:16
+msgid "Multiple Choices."
+msgstr ""
+
+#: ./content/temple.py:66
+msgid "Multiple Lines, One Per Line."
+msgstr ""
+
+#: ./content/temple.py:355
+#: ./content/vocabularies.py:660
+msgid "Narrate"
+msgstr ""
+
+#: ./content/temple.py:528
+msgid "NianLiQingSheng"
+msgstr ""
+
+#: ./content/temple.py:540
+msgid "NianLiQingSheng Other"
+msgstr ""
+
+#: ./content/temple.py:366
+#: ./content/vocabularies.py:661
+msgid "Non Narrate"
+msgstr ""
+
+#: ./content/vocabularies.py:43
+msgid "Not Yet"
+msgstr ""
+
+#: ./content/temple.py:174
+msgid "Organizing Type"
+msgstr ""
+
+#: ./content/temple.py:185
+msgid "Organizing Type Other"
+msgstr ""
+
+#: ./content/vocabularies.py:28
+msgid "Other"
+msgstr ""
+
+#: ./content/temple.py:608
+msgid "Other Remarkable Description."
+msgstr ""
+
+#: ./content/photo.py:131
+#: ./interfaces/photo.py:68
+msgid "Owner Name"
+msgstr ""
+
+#: ./content/photo.py:140
+#: ./interfaces/photo.py:74
+msgid "Owner Organization"
+msgstr ""
+
+#: ./content/photo.py:149
+#: ./interfaces/photo.py:80
+msgid "Owner Title"
+msgstr ""
+
+#: ./content/vocabularies.py:313
+msgid "Person"
+msgstr ""
+
+#: ./content/temple.py:203
+msgid "Person In Charge"
+msgstr ""
+
+#: ./profiles/default/types/Photo.xml
+msgid "Photo"
+msgstr ""
+
+#: ./content/photo.py:122
+#: ./interfaces/photo.py:62
+msgid "Photo Day"
+msgstr ""
+
+#: ./content/photo.py:113
+#: ./interfaces/photo.py:56
+msgid "Photo Month"
+msgstr ""
+
+#: ./browser/quick_upload.py:18
+msgid "Photo Quick Upload"
+msgstr ""
+
+#: ./profiles/default/portlets.xml
+msgid "Photo Quick Upload Portlet"
+msgstr ""
+
+#: ./content/photo.py:104
+#: ./interfaces/photo.py:50
+msgid "Photo Year"
+msgstr ""
+
+#: ./profiles/default/types/Photo.xml
+msgid "Photo for Temple"
+msgstr ""
+
+#: ./profiles/default/types/Pilgrimage.xml
+msgid "Pilgrimage"
+msgstr ""
+
+#: ./content/pilgrimage.py:35
+msgid "Pilgrimage StartDate"
+msgstr ""
+
+#: ./content/pilgrimage.py:36
+msgid "Pilgrimage StartDate Description"
+msgstr ""
+
+#: ./content/pilgrimage.py:34
+msgid "Pilgrimage Title"
+msgstr ""
+
+#: ./profiles/default/types/Pilgrimage.xml
+msgid "Pilgrimage Type"
+msgstr ""
+
+#: ./skins/crgis_styles/validate_photo_metadata.vpy:22
+msgid "Please correct the indicated errors."
+msgstr ""
+
+#: ./profiles/default/portlets.xml
+msgid "Portlet displaying a quick and multiple upload form"
+msgstr ""
+
+#: ./browser/bixiewu.pt:171
+#: ./content/bixiewu.py:266
+#: ./interfaces/bixiewu.py:149
+msgid "Posture"
+msgstr ""
+
+#: ./browser/bixiewu.pt:86
+msgid "Primary Purpose"
+msgstr ""
+
+#: ./content/vocabularies.py:300
+msgid "Private"
+msgstr ""
+
+#: ./content/vocabularies.py:301
+msgid "Public"
+msgstr ""
+
+#: ./content/bixiewu.py:147
+#: ./interfaces/bixiewu.py:89
+msgid "Purpose"
+msgstr ""
+
+#: ./content/vocabularies.py:512
+msgid "QiWu"
+msgstr ""
+
+#: ./content/vocabularies.py:299
+msgid "Raising"
+msgstr ""
+
+#: ./browser/bixiewu.pt:123
+#: ./content/bixiewu.py:200
+#: ./content/photo.py:158
+msgid "Reference"
+msgstr ""
+
+#: ./content/temple.py:289
+msgid "References on Establishment"
+msgstr ""
+
+#: ./content/temple.py:154
+msgid "Registered Name"
+msgstr ""
+
+#: ./content/temple.py:114
+msgid "Registry by Ministry of the Interior."
+msgstr ""
+
+#: ./content/temple.py:271
+msgid "Registry by Taiwan Temple Collection."
+msgstr ""
+
+#: ./content/temple.py:280
+msgid "Registry by Taiwan Temple Overview."
+msgstr ""
+
+#: ./browser/bixiewu.pt:134
+#: ./content/bixiewu.py:218
+#: ./content/schedule.py:32
+msgid "Related Temples"
+msgstr ""
+
+#: ./content/temple.py:113
+msgid "Religion Type"
+msgstr ""
+
+#: ./content/temple.py:124
+msgid "Religion Type Other"
+msgstr ""
+
+#: ./browser/bixiewu.pt:127
+#: ./content/bixiewu.py:210
+#: ./interfaces/bixiewu.py:125
+msgid "Remark"
+msgstr ""
+
+#: ./profiles/default/types/Schedule.xml
+msgid "Schedule"
+msgstr ""
+
+#: ./content/schedule.py:51
+msgid "Schedule StartDate"
+msgstr ""
+
+#: ./content/schedule.py:52
+msgid "Schedule StartDate Description"
+msgstr ""
+
+#: ./content/schedule.py:50
+msgid "Schedule Title"
+msgstr ""
+
+#: ./profiles/default/types/Schedule.xml
+msgid "Schedule for Pilgrimage"
+msgstr ""
+
+#: ./browser/bixiewu.pt:95
+msgid "Secondary Purpose"
+msgstr ""
+
+#: ./content/temple.py:145
+msgid "Self Description, Building Type."
+msgstr ""
+
+#: ./content/temple.py:87
+msgid "Self Description, Deity Host Alias."
+msgstr ""
+
+#: ./content/temple.py:78
+msgid "Self Description, Deity Host."
+msgstr ""
+
+#: ./content/temple.py:186
+msgid "Self Description, Organizing Type."
+msgstr ""
+
+#: ./content/temple.py:125
+msgid "Self Description, Religion Type."
+msgstr ""
+
+#: ./content/temple.py:475
+msgid "Self Description, for example MaZu."
+msgstr ""
+
+#: ./content/temple.py:429
+msgid "Self Description."
+msgstr ""
+
+#: ./content/vocabularies.py:510
+msgid "ShanHaiZhen"
+msgstr ""
+
+#: ./content/vocabularies.py:514
+msgid "ShenShou"
+msgstr ""
+
+#: ./content/vocabularies.py:506
+msgid "ShenXiang"
+msgstr ""
+
+#: ./content/vocabularies.py:504
+msgid "ShiGanDang"
+msgstr ""
+
+#: ./browser/bixiewu.pt:183
+#: ./content/bixiewu.py:289
+#: ./interfaces/bixiewu.py:161
+msgid "ShiZi Depth"
+msgstr ""
+
+#: ./browser/bixiewu.pt:195
+#: ./content/bixiewu.py:322
+#: ./interfaces/bixiewu.py:179
+msgid "ShiZi Head"
+msgstr ""
+
+#: ./browser/bixiewu.pt:191
+#: ./content/bixiewu.py:311
+#: ./interfaces/bixiewu.py:173
+msgid "ShiZi Height"
+msgstr ""
+
+#: ./browser/bixiewu.pt:187
+#: ./content/bixiewu.py:300
+#: ./interfaces/bixiewu.py:167
+msgid "ShiZi Width"
+msgstr ""
+
+#: ./content/vocabularies.py:546
+msgid "SiRen"
+msgstr ""
+
+#: ./content/bixiewu.py:24
+#: ./content/temple.py:29
+#: ./interfaces/bixiewu.py:19
+msgid "Single Choice."
+msgstr ""
+
+#: ./browser/temple.pt:56
+#: ./content/temple.py:50
+msgid "Sitting Facing"
+msgstr ""
+
+#: ./browser/bixiewu.pt:114
+#: ./content/bixiewu.py:180
+#: ./content/vocabularies.py:662
+msgid "Spatial Attribute"
+msgstr ""
+
+#: ./content/vocabularies.py:508
+msgid "Ta"
+msgstr ""
+
+#: ./content/temple.py:212
+msgid "Telephone"
+msgstr ""
+
+#: ./content/vocabularies.py:629
+msgid "TemPle"
+msgstr ""
+
+#: ./profiles/default/types/Temple.xml
+msgid "Temple"
+msgstr ""
+
+#: ./content/temple.py:623
+msgid "Temple Title"
+msgstr ""
+
+#: ./profiles/default/types/Temple.xml
+msgid "Temple Type"
+msgstr ""
+
+#: ./browser/bixiewu.pt:43
+#: ./content/bixiewu.py:43
+#: ./content/photo.py:68
+msgid "Town"
+msgstr ""
+
+#: ./content/temple.py:596
+msgid "Troupe, Music Hall."
+msgstr ""
+
+#: ./content/vocabularies.py:644
+msgid "Unknown"
+msgstr ""
+
+#: ./browser/bixiewu.pt:47
+#: ./content/bixiewu.py:52
+#: ./content/photo.py:77
+msgid "Village"
+msgstr ""
+
+#: ./browser/bixiewu.pt:159
+#: ./content/bixiewu.py:234
+#: ./interfaces/bixiewu.py:131
+msgid "Village Name"
+msgstr ""
+
+#: ./browser/bixiewu.pt:75
+#: ./content/bixiewu.py:125
+#: ./interfaces/bixiewu.py:77
+msgid "Volume"
+msgstr ""
+
+#: ./content/temple.py:550
+msgid "WangYeXianXiang"
+msgstr ""
+
+#: ./content/temple.py:562
+msgid "WangYeXianXiang Other"
+msgstr ""
+
+#: ./content/temple.py:311
+#: ./content/vocabularies.py:656
+msgid "Worship"
+msgstr ""
+
+#: ./browser/bixiewu.pt:105
+#: ./content/bixiewu.py:160
+#: ./interfaces/bixiewu.py:95
+msgid "Worship Description"
+msgstr ""
+
+#: ./content/vocabularies.py:565
+msgid "WuChong"
+msgstr ""
+
+#: ./content/vocabularies.py:631
+msgid "WyYing"
+msgstr ""
+
+#: ./content/temple.py:506
+msgid "XiangHuoLaiYuan"
+msgstr ""
+
+#: ./content/temple.py:518
+msgid "XiangHuoLaiYuan Other"
+msgstr ""
+
+#: ./content/temple.py:451
+msgid "XinYangFanWei"
+msgstr ""
+
+#: ./content/temple.py:452
+msgid "XingYangFanWei Description."
+msgstr ""
+
+#: ./content/temple.py:247
+msgid "Year Accuracy"
+msgstr ""
+
+#: ./content/temple.py:484
+msgid "YiMingMiaoYu"
+msgstr ""
+
+#: ./content/temple.py:496
+msgid "YiMingMiaoYu Other"
+msgstr ""
+
+#: ./skins/crgis_styles/validate_photo_metadata.vpy:18
+msgid "You must provide content titles"
+msgstr ""
+
+#: ./content/vocabularies.py:513
+msgid "ZhaoBi"
+msgstr ""
+
+#: ./content/vocabularies.py:561
+msgid "ZhenFeng"
+msgstr ""
+
+#: ./content/vocabularies.py:562
+msgid "ZhenShui"
+msgstr ""
+
+#: ./content/vocabularies.py:515
+msgid "ZhiWu"
+msgstr ""
+
+#. Default: "Academic"
+#: ./browser/temple.pt:195
+msgid "academic"
+msgstr ""
+
+#. Default: "Address:"
+#: ./browser/temple.pt:60
+msgid "address"
+msgstr ""
+
+#. Default: "Antiquity:"
+#: ./browser/temple.pt:179
+msgid "antiquity"
+msgstr ""
+
+#. Default: "Appendix Info"
+#: ./browser/temple.pt:30
+msgid "appendix_info"
+msgstr ""
+
+#. Default: "Base Size"
+#: ./browser/bixiewu.pt:201
+msgid "base_size"
+msgstr ""
+
+#. Default: "Basic Info"
+#: ./browser/temple.pt:46
+msgid "basic_info"
+msgstr ""
+
+#. Default: "BiXieWu Info"
+#: ./browser/bixiewu.pt:26
+#: ./browser/temple.pt:39
+msgid "bixiewu_info"
+msgstr ""
+
+#. Default: "Booking Info"
+#: ./browser/temple.pt:205
+msgid "booking_info"
+msgstr ""
+
+#: ./content/vocabularies.py:530
+msgid "brick"
+msgstr ""
+
+#. Default: "Building:"
+#: ./browser/temple.pt:139
+msgid "building"
+msgstr ""
+
+#. Default: "Building (Other):"
+#: ./browser/temple.pt:143
+msgid "building_o"
+msgstr ""
+
+#: ./content/vocabularies.py:531
+msgid "ceramics"
+msgstr ""
+
+#: ./content/vocabularies.py:529
+msgid "coment"
+msgstr ""
+
+#: ./content/vocabularies.py:602
+msgid "crouching"
+msgstr ""
+
+#. Default: "Default Info"
+#: ./browser/temple.pt:27
+msgid "default_info"
+msgstr ""
+
+#. Default: "Secondary Deities:"
+#: ./browser/temple.pt:91
+msgid "deity_guest"
+msgstr ""
+
+#. Default: "Primary Deities:"
+#: ./browser/temple.pt:76
+msgid "deity_host"
+msgstr ""
+
+#. Default: "Primary Deity Alias:"
+#: ./browser/temple.pt:86
+msgid "deity_host_a"
+msgstr ""
+
+#. Default: "Primary Deities (Other):"
+#: ./browser/temple.pt:82
+msgid "deity_host_o"
+msgstr ""
+
+#. Default: "Deities (Other):"
+#: ./browser/temple.pt:123
+msgid "deity_o"
+msgstr ""
+
+#. Default: "Established Year:"
+#: ./browser/temple.pt:98
+msgid "era"
+msgstr ""
+
+#. Default: "Established Year (Collection):"
+#: ./browser/temple.pt:102
+msgid "era_1"
+msgstr ""
+
+#. Default: "Established Year (Overview):"
+#: ./browser/temple.pt:106
+msgid "era_2"
+msgstr ""
+
+#. Default: "Established Year Ref:"
+#: ./browser/temple.pt:110
+msgid "era_ref"
+msgstr ""
+
+#: ./content/vocabularies.py:617
+msgid "female"
+msgstr ""
+
+#. Default: "FengShiYe Brief"
+#: ./browser/bixiewu.pt:157
+msgid "fengshiye_brief"
+msgstr ""
+
+#. Default: "FengShiYe Info"
+#: ./browser/bixiewu.pt:28
+msgid "fengshiye_info"
+msgstr ""
+
+#. Default: "Festival Info"
+#: ./browser/temple.pt:36
+msgid "festival_info"
+msgstr ""
+
+#. Default: "By When"
+#: ./browser/temple.pt:211
+msgid "fill_date"
+msgstr ""
+
+#. Default: "By Who"
+#: ./browser/temple.pt:207
+msgid "fill_in"
+msgstr ""
+
+#: ./content/temple.py:51
+msgid "for example North 20 degree."
+msgstr ""
+
+#. Default: "Funding:"
+#: ./browser/temple.pt:155
+msgid "funding"
+msgstr ""
+
+#. Default: "History:"
+#: ./browser/temple.pt:115
+msgid "history"
+msgstr ""
+
+#. Default: "Homepage:"
+#: ./browser/temple.pt:68
+msgid "homepage"
+msgstr ""
+
+#. Default: "Person in Charge:"
+#: ./browser/temple.pt:167
+msgid "in_charge"
+msgstr ""
+
+#. Default: "Introduction:"
+#: ./browser/temple.pt:119
+msgid "introduction"
+msgstr ""
+
+#. Default: "Choose your files :"
+#: ./browser/quick_upload.pt:19
+msgid "label_choose_your_files"
+msgstr ""
+
+#. Default: "Clear Queue"
+#: ./browser/quick_upload.pt:41
+msgid "label_clear_queue"
+msgstr ""
+
+#. Default: "Upload Photos"
+#: ./browser/quick_upload.pt:35
+msgid "label_upload_files"
+msgstr ""
+
+#. Default: "Literature"
+#: ./browser/temple.pt:199
+msgid "literature"
+msgstr ""
+
+#: ./content/vocabularies.py:603
+msgid "lying"
+msgstr ""
+
+#: ./content/vocabularies.py:616
+msgid "male"
+msgstr ""
+
+#. Default: "MOI Registry Info"
+#: ./browser/temple.pt:133
+msgid "moi_info"
+msgstr ""
+
+#: ./content/vocabularies.py:528
+msgid "mud"
+msgstr ""
+
+#. Default: "Narrate:"
+#: ./browser/temple.pt:183
+msgid "narrate"
+msgstr ""
+
+#: ./content/vocabularies.py:577
+msgid "no"
+msgstr ""
+
+#. Default: "Non Narrate:"
+#: ./browser/temple.pt:187
+msgid "non_narrate"
+msgstr ""
+
+#. Default: "Organizing:"
+#: ./browser/temple.pt:159
+msgid "organizing"
+msgstr ""
+
+#. Default: "Organizing (Other):"
+#: ./browser/temple.pt:163
+msgid "organizing_o"
+msgstr ""
+
+#: ./content/vocabularies.py:516
+msgid "other"
+msgstr ""
+
+#. Default: "Outlook"
+#: ./browser/temple.pt:173
+msgid "outlook"
+msgstr ""
+
+#. Default: "Overview:"
+#: ./browser/temple.pt:175
+msgid "overview"
+msgstr ""
+
+#. Default: "Pilgrimage Info"
+#: ./browser/temple.pt:33
+msgid "pilgrimage_info"
+msgstr ""
+
+#. Default: "BiXieWu Type"
+#: ./profiles/default/types/BiXieWu.xml
+msgid "profile_bixiewu"
+msgstr ""
+
+#: ./content/vocabularies.py:605
+msgid "reclining"
+msgstr ""
+
+#. Default: "References"
+#: ./browser/temple.pt:193
+msgid "references"
+msgstr ""
+
+#. Default: "Registered Name:"
+#: ./browser/temple.pt:135
+msgid "registered"
+msgstr ""
+
+#. Default: "Related Temples"
+#: ./browser/schedule.pt:25
+msgid "related_temples"
+msgstr ""
+
+#. Default: "Religion:"
+#: ./browser/temple.pt:147
+msgid "religion"
+msgstr ""
+
+#. Default: "Religion (Other):"
+#: ./browser/temple.pt:151
+msgid "religion_o"
+msgstr ""
+
+#: ./content/vocabularies.py:590
+msgid "roof"
+msgstr ""
+
+#. Default: "Shi Size"
+#: ./browser/bixiewu.pt:181
+msgid "shi_size"
+msgstr ""
+
+#: ./content/vocabularies.py:604
+msgid "sitting"
+msgstr ""
+
+#: ./content/vocabularies.py:601
+msgid "standing"
+msgstr ""
+
+#: ./content/vocabularies.py:527
+msgid "stone"
+msgstr ""
+
+#. Default: "Telephone:"
+#: ./browser/temple.pt:64
+msgid "tel"
+msgstr ""
+
+#: ./content/vocabularies.py:618
+msgid "unknown"
+msgstr ""
+
+#. Default: "View Homepage"
+#: ./browser/temple.pt:69
+msgid "view_homepage"
+msgstr ""
+
+#. Default: "View on Map"
+#: ./browser/bixiewu.pt:17
+#: ./browser/temple.pt:18
+msgid "view_on_map"
+msgstr ""
+
+#: ./content/vocabularies.py:588
+msgid "village"
+msgstr ""
+
+#: ./content/vocabularies.py:589
+msgid "wall"
+msgstr ""
+
+#: ./content/vocabularies.py:532
+msgid "wood"
+msgstr ""
+
+#. Default: "Worship:"
+#: ./browser/temple.pt:127
+msgid "worship"
+msgstr ""
+
+#: ./content/vocabularies.py:576
+msgid "yes"
+msgstr ""
+

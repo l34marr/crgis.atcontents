@@ -1,0 +1,55 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-07-20 16:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+
+#. Default: "Default"
+msgid "label_schema_default"
+msgstr ""
+
+#. Default: "Appendix"
+msgid "label_schema_appendix"
+msgstr ""
+
+#. Default: "Fengshiye"
+msgid "label_schema_fengshiye"
+msgstr ""
+
+#. Default: "Photo Metadata"
+msgid "Photo Metadata"
+msgstr ""
+
+#. Default: "Photo Metadata"
+msgid "heading_photo_metadata"
+msgstr ""
+
+#. Default: "New Owner"
+msgid "label_img_owner"
+msgstr ""
+
+#. Default: "New Date"
+msgid "label_new_date"
+msgstr ""
+
+#. Default: "Change All"
+msgid "label_change_all"
+msgstr ""
+
+#. Default: "Can manage"
+msgid "Can manage"
+msgstr ""
+

@@ -1,0 +1,2 @@
+recursive-include crgis *
+global-exclude *pyc

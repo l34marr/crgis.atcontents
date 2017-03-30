@@ -1,0 +1,64 @@
+<html metal:use-macro="here/main_template/macros/master"
+      i18n:domain="crgis.atcontents" >
+
+<body>
+
+<metal:main fill-slot="main">
+    <tal:main-macro metal:define-macro="main">
+
+
+  <h1 class="documentFirstHeading" align="center"
+   tal:content="context/Title">Title Name</h1>
+
+  <div tal:condition="context/description">
+  <span metal:use-macro="python:context.widget('description', mode='view')" />
+  </div>
+
+  <div tal:condition="context/body">
+  <span metal:use-macro="python:context.widget('body', mode='view')" />
+  </div>
+
+  <div tal:define="temples view/related_temples;
+                   site_properties context/portal_properties/site_properties;
+                   use_view_action site_properties/typesUseViewActionInListings|python:();"
+       tal:condition="temples">
+  <span i18n:translate="related_temples">Related Temples</span>
+  <ol>
+    <tal:block repeat="item temples">
+    <span class="blockBox">
+    <li class="blockTitle"
+     tal:define="item_type item/portal_type;
+                 item_url item/getURL|item/absolute_url;
+                 item_url python:(item_type in use_view_action) and item_url+'/view' or item_url">
+      <a href=""
+         tal:attributes="href item_url;
+                         target string:_blank"
+         tal:content="item/pretty_title_or_id">Temple</a>
+    </li>
+    <tal:temple define="obj item/getObject;
+                   photo python: context.getFirstPhoto(obj)">
+      <span style="display: block">
+        <span tal:replace="obj/address" /><br />
+        <span tal:replace="obj/in_charge" /><br />
+        <span tal:replace="obj/tel" />
+      </span>
+      <span class="blockImg">
+      <img tal:condition="photo"
+           tal:replace="structure photo/image_mini/tag" />
+      </span>
+    </tal:temple>
+    </span>
+    </tal:block>
+    <!-- tal:photo define="obj python:here.getFirstPhoto(obj)" -->
+    <!-- img tal:replace="structure obj/image_mini/tag" / -->
+    <!-- /tal:photo -->
+  </ol>
+  </div>
+
+    </tal:main-macro>
+
+</metal:main>
+
+</body>
+
+</html>
