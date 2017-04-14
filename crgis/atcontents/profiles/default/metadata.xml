@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
 <metadata>
-  <version>1002</version>
-  <dependencies>
-    <dependency>profile-Products.ATContentTypes:base</dependency>
-  </dependencies>
+  <version>1010</version>
 </metadata>
