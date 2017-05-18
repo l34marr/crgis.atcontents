@@ -213,9 +213,12 @@
 
 <dd id="fieldset-apd">
 
-  <div tal:condition="context/jstq">
+  <div tal:define="jss context/jstq|nothing"
+       tal:condition="jss">
   祭祀族群：
-  <span metal:use-macro="python:context.widget('jstq', mode='view')" />
+  <tal:block repeat="js jss">
+  <span tal:replace="python:view.t_title('jstq',js)" />
+  </tal:block>
   </div>
   <div tal:condition="context/jstq_o">
   祭祀族群 (其他)：
@@ -240,17 +243,23 @@
   分靈系統 (其他)：
   <span metal:use-macro="python:context.widget('flxt_o', mode='view')" />
   </div>
-  <div tal:condition="context/ymmy">
+  <div tal:define="yms context/ymmy|nothing"
+       tal:condition="yms">
   移民廟宇：
-  <span metal:use-macro="python:context.widget('ymmy', mode='view')" />
+  <tal:block repeat="ym yms">
+  <span tal:replace="python:view.t_title('ymmy',ym)" />
+  </tal:block>
   </div>
   <div tal:condition="context/ymmy_o">
   移民廟宇 (其他)：
   <span metal:use-macro="python:context.widget('ymmy_o', mode='view')" />
   </div>
-  <div tal:condition="context/xhly">
+  <div tal:define="xhs context/xhly|nothing"
+       tal:condition="xhs">
   香火來源：
-  <span metal:use-macro="python:context.widget('xhly', mode='view')" />
+  <tal:block repeat="xh xhs">
+  <span tal:replace="python:view.t_title('xhly',xh)" />
+  </tal:block>
   </div>
   <div tal:condition="context/xhly_o">
   香火來源 (其他)：
@@ -264,9 +273,12 @@
   年例請神 (其他)：
   <span metal:use-macro="python:context.widget('nlqs_o', mode='view')" />
   </div>
-  <div tal:condition="context/wyxx">
+  <div tal:define="wys context/wyxx|nothing"
+       tal:condition="wys">
   王爺選項：
-  <span metal:use-macro="python:context.widget('wyxx', mode='view')" />
+  <tal:block repeat="wy wys">
+  <span tal:replace="python:view.t_title('wyxx',wy)" />
+  </tal:block>
   </div>
   <div tal:condition="context/wyxx_o">
   王爺選項 (其他)：
