@@ -604,6 +604,83 @@ TempleSchema = folder.ATFolderSchema.copy() + atapi.Schema((
         schemata='appendix',
     ),
 
+    atapi.StringField(
+        'wysm',
+        storage=atapi.AnnotationStorage(),
+        widget=atapi.StringWidget(
+            label=_(u"WangYe Name"),
+            description=_(u"Self Description."),
+        ),
+        schemata='wangye',
+    ),
+
+    atapi.StringField(
+        'yswt',
+        storage=atapi.AnnotationStorage(),
+        widget=atapi.StringWidget(
+            label=_(u"YungS WangTsuan"),
+            description=_(u"Self Description."),
+        ),
+        schemata='wangye',
+    ),
+
+    atapi.LinesField(
+        'dtxs',
+        storage=atapi.AnnotationStorage(),
+        widget=atapi.LinesWidget(
+            label=_(u"DaiTien XuanSho"),
+            description=_(u"Multiple Lines, One Value Per Line."),
+        ),
+        schemata='wangye',
+    ),
+
+    atapi.LinesField(
+        'freq',
+        required=0,
+        multiValued=1,
+        storage=atapi.AnnotationStorage(),
+        widget=atapi.LinesWidget(
+            label=_(u"Frequence"),
+            description=_(u"Multiple Lines, One Value Per Line."),
+        ),
+        schemata='wangye',
+    ),
+
+    atapi.LinesField(
+        'wttz',
+        required=0,
+        multiValued=1,
+        storage=atapi.AnnotationStorage(),
+        widget=atapi.LinesWidget(
+            label=_(u"WangTsuan Material"),
+            description=_(u"Multiple Lines, One Value Per Line."),
+        ),
+        schemata='wangye',
+    ),
+
+    atapi.StringField(
+        'swxs',
+        storage=atapi.AnnotationStorage(),
+        widget=atapi.StringWidget(
+            label=_(u"SungWang XingShi"),
+            description=_(u"Self Description."),
+        ),
+        schemata='wangye',
+    ),
+
+    atapi.TextField(
+        'ysgs',
+        searchable=1,
+        storage=atapi.AnnotationStorage(),
+        default_output_type='text/x-html-safe',
+        widget=atapi.RichWidget(
+            label=_(u"YSGS"),
+            description=_(u"Self Description."),
+            rows = 20,
+        ),
+        schemata='wangye',
+    ),
+
 ))
 
 # Set storage on fields copied from ATFolderSchema, making sure
@@ -688,6 +765,13 @@ class Temple(folder.ATFolder):
     luck = atapi.ATFieldProperty('luck')
     organization = atapi.ATFieldProperty('organization')
     desc_o = atapi.ATFieldProperty('desc_o')
+    wysm = atapi.ATFieldProperty('wysm')
+    yswt = atapi.ATFieldProperty('yswt')
+    dtxs = atapi.ATFieldProperty('dtxs')
+    freq = atapi.ATFieldProperty('freq')
+    wttz = atapi.ATFieldProperty('wttz')
+    swxs = atapi.ATFieldProperty('swxs')
+    ysgs = atapi.ATFieldProperty('ysgs')
 
     def deity_term(self, value):
         factory = getUtility(IVocabularyFactory, 'deity_name')
