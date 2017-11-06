@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: crgis.atcontents\n"
-"POT-Creation-Date: 2014-01-21 10:24+0000\n"
+"POT-Creation-Date: 2017-11-06 13:45+0000\n"
 "PO-Revision-Date: 2014-01-21 18:25+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
@@ -14,92 +14,128 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: crgis.atcontents\n"
 
-#: ./content/photo.py:123
+#: ./content/photo.py:120
 msgid "2 digits for Day."
 msgstr "填寫日期，共2碼，例如01。"
 
-#: ./content/photo.py:114
+#: ./content/photo.py:111
 msgid "2 digits for Month."
 msgstr "填寫月份，共2碼，例如08。"
 
-#: ./content/photo.py:105
+#: ./content/photo.py:102
 msgid "4 digits for Year."
 msgstr "填寫西元年，共4碼，例如2011。"
 
-#: ./content/bixiewu.py:368
-#: ./content/temple.py:620
+#: ./content/bixiewu.py:365
+#: ./content/temple.py:690
 msgid "A String Based on Abbreviation of Administrative Area."
 msgstr "由兩組代碼組合而成：縣市鄉鎮村里代碼及英文名稱代碼，中間以”－”連結。"
 
-#: ./content/vocabularies.py:26
+#: ./content/vocabularies.py:222
+msgid "ALiZhu"
+msgstr ""
+
+#: ./content/vocabularies.py:153
+msgid "AMiTuoFo"
+msgstr ""
+
+#: ./content/vocabularies.py:18
 msgid "Academic"
 msgstr "學術研究成果"
 
-#: ./content/temple.py:377
+#: ./content/temple.py:370
 msgid "Academic Works"
 msgstr "學術著作"
 
-#: ./content/temple.py:194
+#: ./content/temple.py:187
 msgid "Address"
 msgstr "地址"
 
-#: ./content/vocabularies.py:559
+#: ./content/vocabularies.py:552
 msgid "AnZhenLuKou"
 msgstr "安鎮路口"
 
-#: ./content/temple.py:344
-#: ./content/vocabularies.py:659
+#: ./content/temple.py:337
+#: ./content/vocabularies.py:652
 msgid "Antiquities"
 msgstr "古物與文物"
 
-#: ./content/photo.py:48
+#: ./content/photo.py:46
 msgid "Attached To"
 msgstr "顯示於"
 
-#: ./content/photo.py:49
+#: ./content/photo.py:47
 msgid "Attached To Which Fields."
 msgstr "選擇要顯示圖片的欄位。"
 
-#: ./content/vocabularies.py:511
+#: ./content/vocabularies.py:504
 msgid "BaGua"
 msgstr "八卦"
 
+#: ./content/vocabularies.py:85
+msgid "BaGuaZS"
+msgstr ""
+
+#: ./content/vocabularies.py:53
+msgid "BaoShengDD"
+msgstr ""
+
+#: ./content/vocabularies.py:120
+msgid "BaoZheng"
+msgstr ""
+
 #: ./browser/bixiewu.pt:203
-#: ./content/bixiewu.py:355
+#: ./content/bixiewu.py:352
 #: ./interfaces/bixiewu.py:197
 msgid "Base Height"
 msgstr "底座尺寸 (高)"
 
-#: ./content/bixiewu.py:333
+#: ./content/bixiewu.py:330
 #: ./interfaces/bixiewu.py:185
 msgid "Base Length"
 msgstr "底座尺寸 (長)"
 
 #: ./browser/bixiewu.pt:207
-#: ./content/bixiewu.py:344
+#: ./content/bixiewu.py:341
 #: ./interfaces/bixiewu.py:191
 msgid "Base Width"
 msgstr "底座尺寸 (寬)"
 
-#: ./content/vocabularies.py:507
+#: ./content/vocabularies.py:213
+msgid "BeiDouXJ"
+msgstr ""
+
+#: ./content/vocabularies.py:166
+msgid "BeiJiDD"
+msgstr ""
+
+#: ./content/vocabularies.py:500
 msgid "BeiWenFuZhou"
 msgstr "碑文與符咒"
 
-#: ./content/temple.py:595
+#: ./content/vocabularies.py:121
+msgid "BeiYueDD"
+msgstr ""
+
+#: ./content/temple.py:588
 msgid "Believer Organization"
 msgstr "信徒組織"
 
-#: ./content/vocabularies.py:630
+#: ./content/vocabularies.py:182
+msgid "BiXiaYJ"
+msgstr ""
+
+#: ./content/vocabularies.py:623
 #: ./profiles/default/types/BiXieWu.xml
 msgid "BiXieWu"
 msgstr "辟邪物"
 
-#: ./content/bixiewu.py:371
+#: ./content/bixiewu.py:368
 msgid "BiXieWu Title"
 msgstr "名稱"
 
 #: ./browser/bixiewu.pt:55
-#: ./content/bixiewu.py:72
+#: ./content/bixiewu.py:71
 #: ./interfaces/bixiewu.py:47
 msgid "BiXieWu Type"
 msgstr "辟邪物類型"
@@ -109,506 +145,854 @@ msgstr "辟邪物類型"
 msgid "Body"
 msgstr "內容"
 
-#: ./content/temple.py:333
-#: ./content/vocabularies.py:658
+#: ./content/temple.py:326
+#: ./content/vocabularies.py:651
 msgid "Building Overview"
 msgstr "建築概況"
 
-#: ./content/temple.py:133
+#: ./content/temple.py:126
 msgid "Building Type"
 msgstr "寺廟性質"
 
-#: ./content/temple.py:144
+#: ./content/temple.py:137
 msgid "Building Type Other"
 msgstr "寺廟性質 (其他)"
 
-#: ./content/photo.py:37
+#: ./configure.zcml:23
+msgid "CRGIS ATContents"
+msgstr ""
+
+#: ./configure.zcml:23
+msgid "CRGIS Archetypes Content Types"
+msgstr ""
+
+#: ./content/vocabularies.py:230
+msgid "CaiShenYe"
+msgstr ""
+
+#: ./content/photo.py:36
 #: ./interfaces/photo.py:14
 msgid "Category"
 msgstr "分類"
 
-#: ./content/bixiewu.py:367
-#: ./content/temple.py:619
+#: ./content/vocabularies.py:67
+msgid "ChanKueiZS"
+msgstr ""
+
+#: ./content/vocabularies.py:224
+msgid "ChenWeiWu"
+msgstr ""
+
+#: ./content/vocabularies.py:145
+msgid "ChenYong"
+msgstr ""
+
+#: ./content/vocabularies.py:169
+msgid "ChenYuan"
+msgstr ""
+
+#: ./content/vocabularies.py:48
+msgid "ChengHuang"
+msgstr ""
+
+#: ./content/bixiewu.py:364
+#: ./content/temple.py:689
 msgid "Code"
 msgstr "代碼"
 
 #: ./browser/bixiewu.pt:163
-#: ./content/bixiewu.py:244
+#: ./content/bixiewu.py:241
 #: ./interfaces/bixiewu.py:137
 msgid "Color"
 msgstr "彩繪"
 
-#: ./content/vocabularies.py:314
+#: ./content/vocabularies.py:306
 msgid "Committee"
 msgstr "管理委員會"
 
 #: ./browser/bixiewu.pt:59
-#: ./content/bixiewu.py:83
+#: ./content/bixiewu.py:82
 #: ./interfaces/bixiewu.py:53
 msgid "Common Era"
 msgstr "年代"
 
 #: ./browser/bixiewu.pt:51
-#: ./browser/temple.pt:52
-#: ./content/bixiewu.py:61
+#: ./browser/temple.pt:49
+#: ./content/bixiewu.py:60
 msgid "Coordinate Type"
 msgstr "坐標定位方式"
 
 #: ./browser/bixiewu.pt:39
-#: ./content/bixiewu.py:34
-#: ./content/photo.py:59
+#: ./content/bixiewu.py:33
+#: ./content/photo.py:56
 msgid "County"
 msgstr "縣市"
 
+#: ./content/vocabularies.py:180
+msgid "DaMoZS"
+msgstr ""
+
+#: ./content/vocabularies.py:93
+msgid "DaRiRuLai"
+msgstr ""
+
+#: ./content/vocabularies.py:92
+msgid "DaShiYe"
+msgstr ""
+
+#: ./content/vocabularies.py:208
+msgid "DaYuDW"
+msgstr ""
+
+#: ./content/temple.py:631
+msgid "DaiTien XuanSho"
+msgstr ""
+
 #: ./browser/bixiewu.pt:34
-#: ./browser/temple.pt:48
-#: ./content/bixiewu.py:23
+#: ./browser/temple.pt:45
+#: ./content/bixiewu.py:22
 msgid "Data Source"
 msgstr "資料來源"
 
-#: ./content/vocabularies.py:316
+#: ./content/vocabularies.py:308
 msgid "Deacon"
 msgstr "執事"
 
-#: ./content/temple.py:300
+#: ./content/temple.py:293
 msgid "Deities Accompany"
 msgstr "奉祀神明(主神之外)"
 
-#: ./content/temple.py:101
+#: ./content/temple.py:97
 msgid "Deity Company"
 msgstr "陪祀神明"
 
-#: ./content/temple.py:65
+#: ./content/temple.py:64
 msgid "Deity Host"
 msgstr "主祀神明"
 
-#: ./content/temple.py:86
+#: ./content/temple.py:82
 msgid "Deity Host Alias"
 msgstr "對主祀神明的稱呼"
 
-#: ./content/temple.py:77
+#: ./content/temple.py:73
 msgid "Deity Host Other"
 msgstr "主祀神明 (其他)"
 
-#: ./content/temple.py:607
+#: ./content/temple.py:600
 msgid "Description Other"
 msgstr "其他可供記述事項"
 
-#: ./content/temple.py:378
+#: ./content/vocabularies.py:131
+msgid "DiJiZhu"
+msgstr ""
+
+#: ./content/vocabularies.py:130
+msgid "DiMuNN"
+msgstr ""
+
+#: ./content/vocabularies.py:189
+msgid "DiTianDD"
+msgstr ""
+
+#: ./content/vocabularies.py:132
+msgid "DiZhangWang"
+msgstr ""
+
+#: ./content/vocabularies.py:143
+msgid "DingGuangFZ"
+msgstr ""
+
+#: ./content/vocabularies.py:179
+msgid "DongGong"
+msgstr ""
+
+#: ./content/vocabularies.py:147
+msgid "DongHuaDJ"
+msgstr ""
+
+#: ./content/vocabularies.py:148
+msgid "DongYueDD"
+msgstr ""
+
+#: ./content/vocabularies.py:212
+msgid "DouLaoYJ"
+msgstr ""
+
+#: ./content/vocabularies.py:229
+msgid "EnZhuXY"
+msgstr ""
+
+#: ./content/temple.py:371
 msgid "Enter Academic Works."
 msgstr "輸入學術著作。"
 
-#: ./content/temple.py:345
+#: ./content/temple.py:338
 msgid "Enter Antiquities."
 msgstr "輸入古物與文物。"
 
-#: ./content/temple.py:334
+#: ./content/temple.py:327
 msgid "Enter Building Overview."
 msgstr "輸入建築概況。"
 
-#: ./content/bixiewu.py:84
+#: ./content/bixiewu.py:83
 #: ./interfaces/bixiewu.py:55
 msgid "Enter Common Era."
 msgstr "以西元年填寫。"
 
-#: ./content/temple.py:408
+#: ./content/temple.py:401
 msgid "Enter Date."
 msgstr "輸入日期。"
 
-#: ./content/temple.py:301
+#: ./content/temple.py:294
 msgid "Enter Deities Accompany."
 msgstr "輸入神祉名稱。"
 
-#: ./content/bixiewu.py:191
+#: ./content/bixiewu.py:188
 #: ./interfaces/bixiewu.py:115
 msgid "Enter Environmental Description."
 msgstr "所屬位置與附近環境描述。"
 
-#: ./content/bixiewu.py:95
+#: ./content/bixiewu.py:94
 #: ./interfaces/bixiewu.py:61
 msgid "Enter Era Reference."
 msgstr "以文字填寫。"
 
-#: ./content/temple.py:261
+#: ./content/temple.py:254
 msgid "Enter Establishment History."
 msgstr "輸入沿革資料。"
 
-#: ./content/temple.py:230
+#: ./content/temple.py:223
 msgid "Enter Estimated Earliest Founding Year in Western Calendar."
 msgstr "輸入創立起始年 (例如:1895)"
 
-#: ./content/temple.py:239
+#: ./content/temple.py:232
 msgid "Enter Estimated Latest Founding Year in Western Calendar."
 msgstr "輸入創立結束年 (例如:1897)"
 
-#: ./content/bixiewu.py:104
+#: ./content/bixiewu.py:103
 #: ./interfaces/bixiewu.py:67
 msgid "Enter Facing."
 msgstr "以 0 - 360 度方式填寫。"
 
-#: ./content/temple.py:399
+#: ./content/temple.py:392
 msgid "Enter Filling Person Name."
 msgstr "輸入姓名。"
 
-#: ./content/temple.py:323
+#: ./content/temple.py:316
 msgid "Enter Introduction and Photo."
 msgstr "輸入簡介文字與圖片。"
 
-#: ./content/photo.py:96
+#: ./content/photo.py:93
 #: ./interfaces/photo.py:46
 msgid "Enter Latitude."
 msgstr "若採GPS緯度值，則取至小數後6位。"
 
-#: ./content/temple.py:389
+#: ./content/temple.py:382
 msgid "Enter Literature Reference."
 msgstr "輸入相關書目。"
 
-#: ./content/photo.py:87
+#: ./content/photo.py:84
 #: ./interfaces/photo.py:40
 msgid "Enter Longtitude."
 msgstr "若採GPS經度值，則取至小數後6位。"
 
-#: ./content/temple.py:356
+#: ./content/temple.py:349
 msgid "Enter Narrate."
 msgstr "輸入敍事性裝飾題材。"
 
-#: ./content/temple.py:367
+#: ./content/temple.py:360
 msgid "Enter Non Narrate."
 msgstr "輸入非敘事性人物裝飾。"
 
-#: ./content/photo.py:132
+#: ./content/photo.py:129
 #: ./interfaces/photo.py:70
 msgid "Enter Owner Name."
 msgstr "填寫圖片拍攝或提供者姓名。"
 
-#: ./content/photo.py:141
+#: ./content/photo.py:138
 #: ./interfaces/photo.py:76
 msgid "Enter Owner Organization."
 msgstr "填寫圖片拍攝或提供者單位。"
 
-#: ./content/photo.py:150
+#: ./content/photo.py:147
 #: ./interfaces/photo.py:82
 msgid "Enter Owner Title."
 msgstr "填寫圖片拍攝或提供者職稱。"
 
-#: ./content/temple.py:290
+#: ./content/temple.py:283
 msgid "Enter References on Establishment."
 msgstr "輸入創立年代參考文獻。"
 
-#: ./content/bixiewu.py:181
+#: ./content/bixiewu.py:178
 #: ./interfaces/bixiewu.py:109
 msgid "Enter Spatial Attributes."
 msgstr "聚落與寺廟關聯建立。"
 
-#: ./content/bixiewu.py:35
-#: ./content/photo.py:60
+#: ./content/bixiewu.py:34
+#: ./content/photo.py:57
 #: ./interfaces/bixiewu.py:25
 msgid "Enter Text."
 msgstr "輸入文字內容。"
 
-#: ./content/bixiewu.py:235
+#: ./content/bixiewu.py:232
 #: ./interfaces/bixiewu.py:133
 msgid "Enter Village."
 msgstr "完整填寫縣市鄉鎮村里，包含自然村名。"
 
-#: ./content/bixiewu.py:126
+#: ./content/bixiewu.py:125
 #: ./interfaces/bixiewu.py:79
 msgid "Enter Volume Description."
 msgstr "填高度寬度等相關資料。"
 
-#: ./content/temple.py:312
+#: ./content/temple.py:305
 msgid "Enter Worship."
 msgstr "輸入活動資料。"
 
 #: ./browser/bixiewu.pt:118
-#: ./content/bixiewu.py:190
+#: ./content/bixiewu.py:187
 #: ./interfaces/bixiewu.py:113
 msgid "Environmental Description"
 msgstr "環境位置描述"
 
+#: ./content/vocabularies.py:84
+msgid "ErLangSJ"
+msgstr ""
+
 #: ./browser/bixiewu.pt:63
-#: ./content/bixiewu.py:94
+#: ./content/bixiewu.py:93
 #: ./interfaces/bixiewu.py:59
 msgid "Era Reference"
 msgstr "年代參考文獻"
 
-#: ./content/temple.py:270
+#: ./content/temple.py:263
 msgid "Established Year by Taiwan Temple Collection"
 msgstr "創立年代(台灣寺廟大全)"
 
-#: ./content/temple.py:279
+#: ./content/temple.py:272
 msgid "Established Year by Taiwan Temple Overview"
 msgstr "創立年代(台灣寺廟概覽)"
 
 #: ./browser/bixiewu.pt:109
-#: ./content/bixiewu.py:170
+#: ./content/bixiewu.py:167
 #: ./interfaces/bixiewu.py:101
 msgid "Establishment Description"
 msgstr "建立緣起"
 
-#: ./content/temple.py:260
-#: ./content/vocabularies.py:655
+#: ./content/temple.py:253
+#: ./content/vocabularies.py:648
 msgid "Establishment History"
 msgstr "建立沿革"
 
-#: ./content/temple.py:229
+#: ./content/temple.py:222
 msgid "Estimated Earliest Founding Year"
 msgstr "創立起始年"
 
-#: ./content/temple.py:238
+#: ./content/temple.py:231
 msgid "Estimated Latest Founding Year"
 msgstr "創立結束年"
 
-#: ./content/vocabularies.py:642
+#: ./content/vocabularies.py:635
 msgid "Exact"
 msgstr "精確"
 
 #: ./browser/bixiewu.pt:67
-#: ./content/bixiewu.py:103
+#: ./content/bixiewu.py:102
 #: ./interfaces/bixiewu.py:65
 msgid "Facing"
 msgstr "方位"
 
-#: ./content/temple.py:462
+#: ./content/vocabularies.py:228
+msgid "FeiTianDS"
+msgstr ""
+
+#: ./content/temple.py:455
 msgid "FenLingXiTong"
 msgstr "分靈系統"
 
-#: ./content/temple.py:474
+#: ./content/temple.py:467
 msgid "FenLingXiTong Other"
 msgstr "分靈系統 (其他)"
 
-#: ./content/vocabularies.py:563
+#: ./content/vocabularies.py:556
 msgid "FenMu"
 msgstr "墳墓"
 
-#: ./content/vocabularies.py:505
+#: ./content/vocabularies.py:203
+msgid "FengDuDD"
+msgstr ""
+
+#: ./content/vocabularies.py:498
 msgid "FengShiYe"
 msgstr "風獅爺"
 
-#: ./content/vocabularies.py:27
+#: ./content/vocabularies.py:19
 msgid "Fieldwork"
 msgstr "田野調查"
 
-#: ./content/temple.py:407
+#: ./content/temple.py:400
 msgid "Filling Date"
 msgstr "填表日期"
 
-#: ./content/temple.py:398
+#: ./content/temple.py:391
 msgid "Filling Person"
 msgstr "填表人姓名"
 
-#: ./content/vocabularies.py:315
+#: ./content/vocabularies.py:307
 msgid "Foundation"
 msgstr "財團法人"
 
-#: ./content/temple.py:163
+#: ./content/temple.py:643
+msgid "Frequence"
+msgstr ""
+
+#: ./content/vocabularies.py:202
+msgid "FuGuoZW"
+msgstr ""
+
+#: ./content/temple.py:156
 msgid "Funding Type"
 msgstr "建別"
 
-#: ./content/vocabularies.py:643
+#: ./content/vocabularies.py:636
 msgid "Fuzzy"
 msgstr "概略"
 
-#: ./content/vocabularies.py:41
+#: ./content/vocabularies.py:33
 msgid "GIS Reference"
 msgstr "GIS 資料參考定位"
 
-#: ./content/vocabularies.py:40
+#: ./content/vocabularies.py:32
 msgid "GPS"
 msgstr "GPS 定位"
 
 #: ./browser/bixiewu.pt:175
-#: ./content/bixiewu.py:278
+#: ./content/bixiewu.py:275
 #: ./interfaces/bixiewu.py:155
 msgid "Gender"
 msgstr "獅別"
 
 #: ./browser/bixiewu.pt:167
-#: ./content/bixiewu.py:255
+#: ./content/bixiewu.py:252
 #: ./interfaces/bixiewu.py:143
 msgid "Genre"
 msgstr "類型"
 
-#: ./content/vocabularies.py:39
+#: ./content/vocabularies.py:31
 msgid "GeoCoder"
 msgstr "住址轉址定位"
 
-#: ./content/vocabularies.py:317
+#: ./content/vocabularies.py:309
 msgid "Government"
 msgstr "政府管理"
 
-#: ./content/vocabularies.py:25
+#: ./content/vocabularies.py:17
 msgid "Governmental"
 msgstr "政府官方資料"
 
-#: ./content/vocabularies.py:564
+#: ./content/vocabularies.py:122
+msgid "GuGongSW"
+msgstr ""
+
+#: ./content/vocabularies.py:57
+msgid "GuanSengDJ"
+msgstr ""
+
+#: ./content/vocabularies.py:58
+msgid "GuanShiYin"
+msgstr ""
+
+#: ./content/vocabularies.py:56
+msgid "GuangZeZW"
+msgstr ""
+
+#: ./content/vocabularies.py:162
+msgid "GuoZiYi"
+msgstr ""
+
+#: ./content/vocabularies.py:557
 msgid "HaiBian"
 msgstr "海邊"
 
-#: ./content/temple.py:221
+#: ./content/vocabularies.py:195
+msgid "HanChangLi"
+msgstr ""
+
+#: ./content/vocabularies.py:163
+msgid "HanDanYe"
+msgstr ""
+
+#: ./content/vocabularies.py:135
+msgid "HeQiong"
+msgstr ""
+
+#: ./content/vocabularies.py:161
+msgid "HeYeXS"
+msgstr ""
+
+#: ./content/temple.py:214
 msgid "Homepage"
 msgstr "網址"
 
-#: ./content/bixiewu.py:290
+#: ./content/vocabularies.py:196
+msgid "HongJunLZ"
+msgstr ""
+
+#: ./content/vocabularies.py:151
+msgid "HuYeG"
+msgstr ""
+
+#: ./content/vocabularies.py:237
+msgid "HuaTuoS"
+msgstr ""
+
+#: ./content/vocabularies.py:137
+msgid "HuangDaoZhou"
+msgstr ""
+
+#: ./content/vocabularies.py:226
+msgid "HuangLingDZ"
+msgstr ""
+
+#: ./content/bixiewu.py:287
 #: ./interfaces/bixiewu.py:163
 msgid "In CentiMeter."
 msgstr "單位：公分"
 
-#: ./content/temple.py:322
-#: ./content/vocabularies.py:657
+#: ./content/temple.py:315
+#: ./content/vocabularies.py:650
 msgid "Introduction"
 msgstr "簡介與相關圖片"
 
-#: ./content/temple.py:439
+#: ./content/vocabularies.py:70
+msgid "JiGongZS"
+msgstr ""
+
+#: ./content/temple.py:432
 msgid "JiSiFanWei"
 msgstr "祭祀範圍選項"
 
-#: ./content/temple.py:440
+#: ./content/temple.py:433
 msgid "JiSiFanWei Description."
 msgstr "祭祀範圍選項 (其他)"
 
-#: ./content/temple.py:416
+#: ./content/temple.py:409
 msgid "JiSiZuQun"
 msgstr "祭祀族群"
 
-#: ./content/temple.py:428
+#: ./content/temple.py:421
 msgid "JiSiZuQun Other"
 msgstr "祭祀族群 (其他)"
 
-#: ./content/vocabularies.py:509
+#: ./content/vocabularies.py:136
+msgid "JiaLanZW"
+msgstr ""
+
+#: ./content/vocabularies.py:502
 msgid "JianShi"
 msgstr "劍獅"
 
-#: ./content/vocabularies.py:544
+#: ./content/vocabularies.py:155
+msgid "JiangZiYa"
+msgstr ""
+
+#: ./content/vocabularies.py:238
+msgid "JieZhiTuei"
+msgstr ""
+
+#: ./content/vocabularies.py:167
+msgid "JinPuFR"
+msgstr ""
+
+#: ./content/vocabularies.py:152
+msgid "JinZhaYS"
+msgstr ""
+
+#: ./content/vocabularies.py:181
+msgid "JingZhuZW"
+msgstr ""
+
+#: ./content/vocabularies.py:80
+msgid "JiouFuXS"
+msgstr ""
+
+#: ./content/vocabularies.py:81
+msgid "JiouHuangDD"
+msgstr ""
+
+#: ./content/vocabularies.py:82
+msgid "JiouLianFZ"
+msgstr ""
+
+#: ./content/vocabularies.py:83
+msgid "JiouLongSG"
+msgstr ""
+
+#: ./content/vocabularies.py:69
+msgid "JiouTianNN"
+msgstr ""
+
+#: ./content/vocabularies.py:537
 msgid "JuLuo"
 msgstr "聚落"
 
-#: ./content/vocabularies.py:558
+#: ./content/vocabularies.py:551
 msgid "JuLuoZhenSha"
 msgstr "聚落鎮煞"
 
-#: ./content/photo.py:95
+#: ./content/vocabularies.py:71
+msgid "KaiZhangSW"
+msgstr ""
+
+#: ./content/vocabularies.py:231
+msgid "KangMiaoWei"
+msgstr ""
+
+#: ./content/vocabularies.py:158
+msgid "KangZhaoYS"
+msgstr ""
+
+#: ./content/vocabularies.py:112
+msgid "KongMing"
+msgstr ""
+
+#: ./content/vocabularies.py:111
+msgid "KongZi"
+msgstr ""
+
+#: ./content/vocabularies.py:187
+msgid "KueiXinFZ"
+msgstr ""
+
+#: ./content/photo.py:92
 #: ./interfaces/photo.py:44
 msgid "Latitude"
 msgstr "緯度值"
 
-#: ./content/temple.py:388
+#: ./content/vocabularies.py:243
+msgid "LeiWanChuen"
+msgstr ""
+
+#: ./content/vocabularies.py:184
+msgid "LiBoMiao"
+msgstr ""
+
+#: ./content/vocabularies.py:129
+msgid "LiGuanTao"
+msgstr ""
+
+#: ./content/vocabularies.py:221
+msgid "LiGuangQian"
+msgstr ""
+
+#: ./content/vocabularies.py:139
+msgid "LiJingW"
+msgstr ""
+
+#: ./content/vocabularies.py:207
+msgid "LiShanLM"
+msgstr ""
+
+#: ./content/vocabularies.py:140
+msgid "LiTieGuai"
+msgstr ""
+
+#: ./content/vocabularies.py:63
+msgid "LinSueiFR"
+msgstr ""
+
+#: ./content/vocabularies.py:205
+msgid "LingAnZW"
+msgstr ""
+
+#: ./content/vocabularies.py:206
+msgid "LingBaoTZ"
+msgstr ""
+
+#: ./content/vocabularies.py:225
+msgid "LiouXJ"
+msgstr ""
+
+#: ./content/temple.py:381
 msgid "Literature Reference"
 msgstr "相關書目"
 
 #: ./browser/bixiewu.pt:80
-#: ./content/bixiewu.py:134
+#: ./content/bixiewu.py:133
 #: ./interfaces/bixiewu.py:83
 msgid "Locational Attribute"
 msgstr "位置屬性"
 
-#: ./content/photo.py:86
+#: ./content/vocabularies.py:192
+msgid "LongDeXJ"
+msgstr ""
+
+#: ./content/vocabularies.py:193
+msgid "LongShuZW"
+msgstr ""
+
+#: ./content/photo.py:83
 #: ./interfaces/photo.py:38
 msgid "Longtitude"
 msgstr "經度值"
 
-#: ./content/vocabularies.py:560
+#: ./content/vocabularies.py:123
+msgid "LuBanG"
+msgstr ""
+
+#: ./content/vocabularies.py:553
 msgid "LuChong"
 msgstr "路衝"
 
-#: ./content/vocabularies.py:545
+#: ./content/vocabularies.py:219
+msgid "LuDongBin"
+msgstr ""
+
+#: ./content/vocabularies.py:200
+msgid "LuGongXS"
+msgstr ""
+
+#: ./content/vocabularies.py:538
 msgid "LuKuo"
 msgstr "路口"
 
-#: ./content/temple.py:583
+#: ./content/temple.py:576
 msgid "Luck Divination"
 msgstr "運籤"
 
-#: ./content/vocabularies.py:42
+#: ./content/vocabularies.py:185
+msgid "MaRenG"
+msgstr ""
+
+#: ./content/vocabularies.py:186
+msgid "MaXFSJJ"
+msgstr ""
+
+#: ./content/vocabularies.py:51
+msgid "MaZu"
+msgstr ""
+
+#: ./content/vocabularies.py:34
 msgid "Map"
 msgstr "地圖定位"
 
 #: ./browser/bixiewu.pt:71
-#: ./content/bixiewu.py:113
+#: ./content/bixiewu.py:112
 #: ./interfaces/bixiewu.py:71
 msgid "Material"
 msgstr "材質"
 
-#: ./content/temple.py:572
+#: ./content/temple.py:565
 msgid "Medicine Divination"
 msgstr "藥籤"
+
+#: ./content/vocabularies.py:142
+msgid "MengChang"
+msgstr ""
 
 #: ./skins/crgis_styles/photo_metadata.cpy:34
 msgid "Metadata changed."
 msgstr "圖片資料已更新。"
 
-#: ./content/bixiewu.py:148
+#: ./content/vocabularies.py:194
+msgid "MiLeFZ"
+msgstr ""
+
+#: ./content/vocabularies.py:146
+msgid "MingMingSD"
+msgstr ""
+
+#: ./content/bixiewu.py:147
 msgid "Multiple Choice. Primary Choice Goes First."
 msgstr "可複選，請依序選擇，第一個選項為主要功用，其餘選項為次要功用。"
 
-#: ./content/photo.py:38
-#: ./content/temple.py:417
+#: ./content/photo.py:37
+#: ./content/temple.py:410
 #: ./interfaces/photo.py:16
 msgid "Multiple Choices."
 msgstr "可複選。"
 
-#: ./content/temple.py:66
+#: ./content/temple.py:65
 msgid "Multiple Lines, One Per Line."
 msgstr "逐行填寫，每位神明佔一行。"
 
-#: ./content/temple.py:355
-#: ./content/vocabularies.py:660
+#: ./content/temple.py:632
+msgid "Multiple Lines, One Value Per Line."
+msgstr ""
+
+#: ./content/vocabularies.py:154
+msgid "NanJiXW"
+msgstr ""
+
+#: ./content/vocabularies.py:223
+msgid "NanYueSH"
+msgstr ""
+
+#: ./content/temple.py:348
+#: ./content/vocabularies.py:653
 msgid "Narrate"
 msgstr "敍事性裝飾題材"
 
-#: ./content/temple.py:528
+#: ./content/temple.py:521
 msgid "NianLiQingSheng"
 msgstr "年例請神"
 
-#: ./content/temple.py:540
+#: ./content/temple.py:533
 msgid "NianLiQingSheng Other"
 msgstr "年例請神 (其他)"
 
-#: ./content/temple.py:366
-#: ./content/vocabularies.py:661
+#: ./content/temple.py:359
+#: ./content/vocabularies.py:654
 msgid "Non Narrate"
 msgstr "非敘事性人物裝飾"
 
-#: ./content/vocabularies.py:43
+#: ./content/vocabularies.py:35
 msgid "Not Yet"
 msgstr "未定位"
 
-#: ./content/temple.py:174
+#: ./content/vocabularies.py:94
+msgid "NuGuoNN"
+msgstr ""
+
+#: ./content/temple.py:167
 msgid "Organizing Type"
 msgstr "組織型態"
 
-#: ./content/temple.py:185
+#: ./content/temple.py:178
 msgid "Organizing Type Other"
 msgstr "組織型態 (其他)"
 
-#: ./content/vocabularies.py:28
+#: ./content/vocabularies.py:20
 msgid "Other"
 msgstr "其他"
 
-#: ./content/temple.py:608
+#: ./content/temple.py:601
 msgid "Other Remarkable Description."
 msgstr "其他可供記述事項。"
 
-#: ./content/photo.py:131
+#: ./content/photo.py:128
 #: ./interfaces/photo.py:68
 msgid "Owner Name"
 msgstr "圖片拍攝/提供者姓名"
 
-#: ./content/photo.py:140
+#: ./content/photo.py:137
 #: ./interfaces/photo.py:74
 msgid "Owner Organization"
 msgstr "圖片拍攝/提供者單位"
 
-#: ./content/photo.py:149
+#: ./content/photo.py:146
 #: ./interfaces/photo.py:80
 msgid "Owner Title"
 msgstr "圖片拍攝/提供者職稱"
 
-#: ./content/vocabularies.py:313
+#: ./content/vocabularies.py:190
+msgid "PanGuZS"
+msgstr ""
+
+#: ./content/vocabularies.py:305
 msgid "Person"
 msgstr "管理人"
 
-#: ./content/temple.py:203
+#: ./content/temple.py:196
 msgid "Person In Charge"
 msgstr "負責人"
 
@@ -616,25 +1000,17 @@ msgstr "負責人"
 msgid "Photo"
 msgstr "圖片"
 
-#: ./content/photo.py:122
+#: ./content/photo.py:119
 #: ./interfaces/photo.py:62
 msgid "Photo Day"
 msgstr "拍攝/製作日期"
 
-#: ./content/photo.py:113
+#: ./content/photo.py:110
 #: ./interfaces/photo.py:56
 msgid "Photo Month"
 msgstr "拍攝/製作月份"
 
-#: ./browser/quick_upload.py:18
-msgid "Photo Quick Upload"
-msgstr "上傳圖片"
-
-#: ./profiles/default/portlets.xml
-msgid "Photo Quick Upload Portlet"
-msgstr "上傳圖片"
-
-#: ./content/photo.py:104
+#: ./content/photo.py:101
 #: ./interfaces/photo.py:50
 msgid "Photo Year"
 msgstr "拍攝/製作年份"
@@ -667,12 +1043,8 @@ msgstr "出巡遶境"
 msgid "Please correct the indicated errors."
 msgstr "請更正錯誤。"
 
-#: ./profiles/default/portlets.xml
-msgid "Portlet displaying a quick and multiple upload form"
-msgstr "上傳圖片的資訊方框"
-
 #: ./browser/bixiewu.pt:171
-#: ./content/bixiewu.py:266
+#: ./content/bixiewu.py:263
 #: ./interfaces/bixiewu.py:149
 msgid "Posture"
 msgstr "形制"
@@ -681,72 +1053,144 @@ msgstr "形制"
 msgid "Primary Purpose"
 msgstr "主要功用"
 
-#: ./content/vocabularies.py:300
+#: ./content/vocabularies.py:292
 msgid "Private"
 msgstr "私建"
 
-#: ./content/vocabularies.py:301
+#: ./content/vocabularies.py:165
+msgid "PuAnFZ"
+msgstr ""
+
+#: ./content/vocabularies.py:164
+msgid "PuDuGong"
+msgstr ""
+
+#: ./content/vocabularies.py:233
+msgid "PuXianPS"
+msgstr ""
+
+#: ./content/vocabularies.py:293
 msgid "Public"
 msgstr "公有"
 
-#: ./content/bixiewu.py:147
+#: ./content/bixiewu.py:146
 #: ./interfaces/bixiewu.py:89
 msgid "Purpose"
 msgstr "功用"
 
-#: ./content/vocabularies.py:512
+#: ./content/vocabularies.py:188
+msgid "QiTianDS"
+msgstr ""
+
+#: ./content/vocabularies.py:505
 msgid "QiWu"
 msgstr "器物"
 
-#: ./content/vocabularies.py:299
+#: ./content/vocabularies.py:77
+msgid "QiXingNN"
+msgstr ""
+
+#: ./content/vocabularies.py:78
+msgid "QiZhuXS"
+msgstr ""
+
+#: ./content/vocabularies.py:91
+msgid "QianShouGY"
+msgstr ""
+
+#: ./content/vocabularies.py:66
+msgid "QingSheiZS"
+msgstr ""
+
+#: ./content/vocabularies.py:197
+msgid "QueGongZR"
+msgstr ""
+
+#: ./content/vocabularies.py:291
 msgid "Raising"
 msgstr "勸募"
 
 #: ./browser/bixiewu.pt:123
-#: ./content/bixiewu.py:200
-#: ./content/photo.py:158
+#: ./content/bixiewu.py:197
+#: ./content/photo.py:155
 msgid "Reference"
 msgstr "參考文獻"
 
-#: ./content/temple.py:289
+#: ./content/temple.py:282
 msgid "References on Establishment"
 msgstr "創立年代參考文獻"
 
-#: ./content/temple.py:154
+#: ./content/temple.py:147
 msgid "Registered Name"
 msgstr "登記名稱"
 
-#: ./content/temple.py:114
+#: ./content/temple.py:107
 msgid "Registry by Ministry of the Interior."
 msgstr "內政部寺廟登記資料"
 
-#: ./content/temple.py:271
+#: ./content/temple.py:264
 msgid "Registry by Taiwan Temple Collection."
 msgstr "臺灣寺廟大全。"
 
-#: ./content/temple.py:280
+#: ./content/temple.py:273
 msgid "Registry by Taiwan Temple Overview."
 msgstr "臺灣寺廟概覽。"
 
 #: ./browser/bixiewu.pt:134
-#: ./content/bixiewu.py:218
+#: ./content/bixiewu.py:215
 #: ./content/schedule.py:32
 msgid "Related Temples"
 msgstr "相關寺廟"
 
-#: ./content/temple.py:113
+#: ./content/temple.py:106
 msgid "Religion Type"
 msgstr "教別"
 
-#: ./content/temple.py:124
+#: ./content/temple.py:117
 msgid "Religion Type Other"
 msgstr "教別 (其他)"
 
 #: ./browser/bixiewu.pt:127
-#: ./content/bixiewu.py:210
+#: ./content/bixiewu.py:207
 #: ./interfaces/bixiewu.py:125
 msgid "Remark"
 msgstr "備註"
+
+#: ./content/vocabularies.py:114
+msgid "RiYueEDS"
+msgstr ""
+
+#: ./content/vocabularies.py:89
+msgid "SanBaoFZ"
+msgstr ""
+
+#: ./content/vocabularies.py:61
+msgid "SanGuanDD"
+msgstr ""
+
+#: ./content/vocabularies.py:62
+msgid "SanNaiFR"
+msgstr ""
+
+#: ./content/vocabularies.py:68
+msgid "SanPingZS"
+msgstr ""
+
+#: ./content/vocabularies.py:88
+msgid "SanQingDZ"
+msgstr ""
+
+#: ./content/vocabularies.py:65
+msgid "SanShanGW"
+msgstr ""
+
+#: ./content/vocabularies.py:52
+msgid "SanTaiZi"
+msgstr ""
+
+#: ./content/vocabularies.py:87
+msgid "SanYiXS"
+msgstr ""
 
 #: ./profiles/default/types/Schedule.xml
 msgid "Schedule"
@@ -772,104 +1216,176 @@ msgstr "行程表"
 msgid "Secondary Purpose"
 msgstr "次要功用"
 
-#: ./content/temple.py:145
+#: ./content/temple.py:138
 msgid "Self Description, Building Type."
 msgstr "「寺廟性質」點選「其他」後，請自填表格內容。"
 
-#: ./content/temple.py:87
+#: ./content/temple.py:83
 msgid "Self Description, Deity Host Alias."
 msgstr "請自填當地民眾對神明的稱呼。"
 
-#: ./content/temple.py:78
+#: ./content/temple.py:74
 msgid "Self Description, Deity Host."
 msgstr "請自填神明種類。"
 
-#: ./content/temple.py:186
+#: ./content/temple.py:179
 msgid "Self Description, Organizing Type."
 msgstr "「組織型態」點選「其他」後，請自填表格內容。"
 
-#: ./content/temple.py:125
+#: ./content/temple.py:118
 msgid "Self Description, Religion Type."
 msgstr "「教別」點選「其他」後，請自填表格內容。"
 
-#: ./content/temple.py:475
+#: ./content/temple.py:468
 msgid "Self Description, for example MaZu."
 msgstr "填「其他」項目者，請在本選項自填，如：媽祖/安平開台天后宮 或 玄天上帝/開基靈佑宮。"
 
-#: ./content/temple.py:429
+#: ./content/temple.py:422
 msgid "Self Description."
 msgstr "請自填。"
 
-#: ./content/vocabularies.py:510
+#: ./content/vocabularies.py:503
 msgid "ShanHaiZhen"
 msgstr "山海鎮"
 
-#: ./content/vocabularies.py:514
+#: ./content/vocabularies.py:149
+msgid "ShenBiao"
+msgstr ""
+
+#: ./content/vocabularies.py:241
+msgid "ShenJunXY"
+msgstr ""
+
+#: ./content/vocabularies.py:507
 msgid "ShenShou"
 msgstr "其他神獸(龍鳳麒麟等)"
 
-#: ./content/vocabularies.py:506
+#: ./content/vocabularies.py:499
 msgid "ShenXiang"
 msgstr "神像"
 
-#: ./content/vocabularies.py:504
+#: ./content/vocabularies.py:86
+msgid "ShiErNNN"
+msgstr ""
+
+#: ./content/vocabularies.py:497
 msgid "ShiGanDang"
 msgstr "石敢當"
 
+#: ./content/vocabularies.py:201
+msgid "ShiJiaMoNiF"
+msgstr ""
+
 #: ./browser/bixiewu.pt:183
-#: ./content/bixiewu.py:289
+#: ./content/bixiewu.py:286
 #: ./interfaces/bixiewu.py:161
 msgid "ShiZi Depth"
 msgstr "獅子尺寸 (深)"
 
 #: ./browser/bixiewu.pt:195
-#: ./content/bixiewu.py:322
+#: ./content/bixiewu.py:319
 #: ./interfaces/bixiewu.py:179
 msgid "ShiZi Head"
 msgstr "獅子尺寸 (頭)"
 
 #: ./browser/bixiewu.pt:191
-#: ./content/bixiewu.py:311
+#: ./content/bixiewu.py:308
 #: ./interfaces/bixiewu.py:173
 msgid "ShiZi Height"
 msgstr "獅子尺寸 (高)"
 
 #: ./browser/bixiewu.pt:187
-#: ./content/bixiewu.py:300
+#: ./content/bixiewu.py:297
 #: ./interfaces/bixiewu.py:167
 msgid "ShiZi Width"
 msgstr "獅子尺寸 (面寬)"
 
-#: ./content/vocabularies.py:546
+#: ./content/vocabularies.py:242
+msgid "ShuShenXY"
+msgstr ""
+
+#: ./content/vocabularies.py:116
+msgid "ShueiDeXJ"
+msgstr ""
+
+#: ./content/vocabularies.py:115
+msgid "ShueiXianW"
+msgstr ""
+
+#: ./content/vocabularies.py:239
+msgid "ShuenZhengDW"
+msgstr ""
+
+#: ./content/vocabularies.py:214
+msgid "SiMianFo"
+msgstr ""
+
+#: ./content/vocabularies.py:79
+msgid "SiMingZJ"
+msgstr ""
+
+#: ./content/vocabularies.py:539
 msgid "SiRen"
 msgstr "私人"
 
-#: ./content/bixiewu.py:24
-#: ./content/temple.py:29
+#: ./content/bixiewu.py:23
+#: ./content/temple.py:28
 #: ./interfaces/bixiewu.py:19
 msgid "Single Choice."
 msgstr "單選。"
 
-#: ./browser/temple.pt:56
-#: ./content/temple.py:50
+#: ./browser/temple.pt:53
+#: ./content/temple.py:49
 msgid "Sitting Facing"
 msgstr "坐向"
 
 #: ./browser/bixiewu.pt:114
-#: ./content/bixiewu.py:180
-#: ./content/vocabularies.py:662
+#: ./content/bixiewu.py:177
+#: ./content/vocabularies.py:655
 msgid "Spatial Attribute"
 msgstr "空間屬性"
 
-#: ./content/vocabularies.py:508
+#: ./content/vocabularies.py:156
+msgid "SuenBin"
+msgstr ""
+
+#: ./content/temple.py:665
+msgid "SungWang XingShi"
+msgstr ""
+
+#: ./content/vocabularies.py:501
 msgid "Ta"
 msgstr "塔"
 
-#: ./content/temple.py:212
+#: ./content/vocabularies.py:107
+msgid "TaiBaiJX"
+msgstr ""
+
+#: ./content/vocabularies.py:108
+msgid "TaiBaiSJ"
+msgstr ""
+
+#: ./content/vocabularies.py:106
+msgid "TaiShangLJ"
+msgstr ""
+
+#: ./content/vocabularies.py:110
+msgid "TaiYangXJ"
+msgstr ""
+
+#: ./content/vocabularies.py:105
+msgid "TaiYiTZ"
+msgstr ""
+
+#: ./content/vocabularies.py:109
+msgid "TaiYinXJ"
+msgstr ""
+
+#: ./content/temple.py:205
 msgid "Telephone"
 msgstr "電話"
 
-#: ./content/vocabularies.py:629
+#: ./content/vocabularies.py:622
 msgid "TemPle"
 msgstr "寺廟"
 
@@ -877,7 +1393,7 @@ msgstr "寺廟"
 msgid "Temple"
 msgstr "寺廟資料表"
 
-#: ./content/temple.py:623
+#: ./content/temple.py:693
 msgid "Temple Title"
 msgstr "寺廟名稱"
 
@@ -885,130 +1401,430 @@ msgstr "寺廟名稱"
 msgid "Temple Type"
 msgstr "寺廟資料表"
 
+#: ./content/vocabularies.py:126
+msgid "TianDuYS"
+msgstr ""
+
+#: ./content/vocabularies.py:103
+msgid "TianGuanDD"
+msgstr ""
+
+#: ./content/vocabularies.py:104
+msgid "TianQianWD"
+msgstr ""
+
 #: ./browser/bixiewu.pt:43
-#: ./content/bixiewu.py:43
-#: ./content/photo.py:68
+#: ./content/bixiewu.py:42
+#: ./content/photo.py:65
 msgid "Town"
 msgstr "鄉鎮"
 
-#: ./content/temple.py:596
+#: ./content/temple.py:589
 msgid "Troupe, Music Hall."
 msgstr "重要藝陣/曲館/神明會。"
 
-#: ./content/vocabularies.py:644
+#: ./content/vocabularies.py:49
+msgid "TuDiGong"
+msgstr ""
+
+#: ./content/vocabularies.py:637
 msgid "Unknown"
 msgstr "不可考"
 
 #: ./browser/bixiewu.pt:47
-#: ./content/bixiewu.py:52
-#: ./content/photo.py:77
+#: ./content/bixiewu.py:51
+#: ./content/photo.py:74
 msgid "Village"
 msgstr "所屬村落"
 
 #: ./browser/bixiewu.pt:159
-#: ./content/bixiewu.py:234
+#: ./content/bixiewu.py:231
 #: ./interfaces/bixiewu.py:131
 msgid "Village Name"
 msgstr ""
 
 #: ./browser/bixiewu.pt:75
-#: ./content/bixiewu.py:125
+#: ./content/bixiewu.py:124
 #: ./interfaces/bixiewu.py:77
 msgid "Volume"
 msgstr "材積"
 
-#: ./content/temple.py:550
+#: ./content/vocabularies.py:118
+msgid "WangFen"
+msgstr ""
+
+#: ./content/vocabularies.py:60
+msgid "WangMuNN"
+msgstr ""
+
+#: ./content/vocabularies.py:117
+msgid "WangTianJ"
+msgstr ""
+
+#: ./content/temple.py:655
+msgid "WangTsuan Material"
+msgstr ""
+
+#: ./content/vocabularies.py:47
+msgid "WangYe"
+msgstr ""
+
+#: ./content/temple.py:611
+msgid "WangYe Name"
+msgstr ""
+
+#: ./content/temple.py:543
 msgid "WangYeXianXiang"
 msgstr "王爺選項"
 
-#: ./content/temple.py:562
+#: ./content/temple.py:555
 msgid "WangYeXianXiang Other"
 msgstr "王爺選項 (其他)"
 
-#: ./content/temple.py:311
-#: ./content/vocabularies.py:656
+#: ./content/vocabularies.py:227
+msgid "WeiTuoPS"
+msgstr ""
+
+#: ./content/vocabularies.py:211
+msgid "WenCaiShen"
+msgstr ""
+
+#: ./content/vocabularies.py:113
+msgid "WenChangDJ"
+msgstr ""
+
+#: ./content/vocabularies.py:210
+msgid "WenShuPS"
+msgstr ""
+
+#: ./content/vocabularies.py:119
+msgid "WnagChanLZ"
+msgstr ""
+
+#: ./content/vocabularies.py:127
+msgid "WnagShenZhi"
+msgstr ""
+
+#: ./content/temple.py:304
+#: ./content/vocabularies.py:649
 msgid "Worship"
 msgstr "祭祀活動"
 
 #: ./browser/bixiewu.pt:105
-#: ./content/bixiewu.py:160
+#: ./content/bixiewu.py:157
 #: ./interfaces/bixiewu.py:95
 msgid "Worship Description"
 msgstr "祭祀日期"
 
-#: ./content/vocabularies.py:565
+#: ./content/vocabularies.py:558
 msgid "WuChong"
 msgstr "屋衝"
 
-#: ./content/vocabularies.py:631
+#: ./content/vocabularies.py:138
+msgid "WuFengG"
+msgstr ""
+
+#: ./content/vocabularies.py:98
+msgid "WuFuDD"
+msgstr ""
+
+#: ./content/vocabularies.py:95
+msgid "WuGongZS"
+msgstr ""
+
+#: ./content/vocabularies.py:55
+msgid "WuGuDD"
+msgstr ""
+
+#: ./content/vocabularies.py:235
+msgid "WuJiLaoMuNN"
+msgstr ""
+
+#: ./content/vocabularies.py:236
+msgid "WuJiSZ"
+msgstr ""
+
+#: ./content/vocabularies.py:234
+msgid "WuLiangYSWF"
+msgstr ""
+
+#: ./content/vocabularies.py:97
+msgid "WuLuCaiShen"
+msgstr ""
+
+#: ./content/vocabularies.py:170
+msgid "WuShaG"
+msgstr ""
+
+#: ./content/vocabularies.py:96
+msgid "WuWenChang"
+msgstr ""
+
+#: ./content/vocabularies.py:100
+msgid "WuXianDD"
+msgstr ""
+
+#: ./content/vocabularies.py:101
+msgid "WuXianLG"
+msgstr ""
+
+#: ./content/vocabularies.py:99
+msgid "WuYueDD"
+msgstr ""
+
+#: ./content/vocabularies.py:624
 msgid "WyYing"
 msgstr "五營"
 
-#: ./content/temple.py:506
+#: ./content/vocabularies.py:218
+msgid "XiFangSS"
+msgstr ""
+
+#: ./content/vocabularies.py:133
+msgid "XiQinWang"
+msgstr ""
+
+#: ./content/vocabularies.py:134
+msgid "XiYueDD"
+msgstr ""
+
+#: ./content/vocabularies.py:90
+msgid "XiaYuanDD"
+msgstr ""
+
+#: ./content/vocabularies.py:204
+msgid "XianYingZS"
+msgstr ""
+
+#: ./content/temple.py:499
 msgid "XiangHuoLaiYuan"
 msgstr "香火來源"
 
-#: ./content/temple.py:518
+#: ./content/temple.py:511
 msgid "XiangHuoLaiYuan Other"
 msgstr "香火來源 (其他)"
 
-#: ./content/temple.py:451
+#: ./content/vocabularies.py:171
+msgid "XiangYuYS"
+msgstr ""
+
+#: ./content/vocabularies.py:75
+msgid "XieAn"
+msgstr ""
+
+#: ./content/vocabularies.py:76
+msgid "XieXuan"
+msgstr ""
+
+#: ./content/temple.py:444
 msgid "XinYangFanWei"
 msgstr "信仰範圍"
 
-#: ./content/temple.py:452
+#: ./content/temple.py:445
 msgid "XingYangFanWei Description."
 msgstr "信例範圍 (其他)"
 
-#: ./content/temple.py:247
+#: ./content/vocabularies.py:172
+msgid "XuXun"
+msgstr ""
+
+#: ./content/vocabularies.py:73
+msgid "XuYuan"
+msgstr ""
+
+#: ./content/vocabularies.py:54
+msgid "XuanTienDD"
+msgstr ""
+
+#: ./content/vocabularies.py:157
+msgid "XuanYuanHD"
+msgstr ""
+
+#: ./content/vocabularies.py:215
+msgid "XuanZhangDS"
+msgstr ""
+
+#: ./content/temple.py:677
+msgid "YSGS"
+msgstr ""
+
+#: ./content/vocabularies.py:175
+msgid "YangFLSG"
+msgstr ""
+
+#: ./content/vocabularies.py:176
+msgid "YangFTS"
+msgstr ""
+
+#: ./content/vocabularies.py:174
+msgid "YangGongBS"
+msgstr ""
+
+#: ./content/vocabularies.py:173
+msgid "YangYanDe"
+msgstr ""
+
+#: ./content/vocabularies.py:199
+msgid "YaoShiFo"
+msgstr ""
+
+#: ./content/vocabularies.py:198
+msgid "YaoWangDD"
+msgstr ""
+
+#: ./content/temple.py:240
 msgid "Year Accuracy"
 msgstr "年份精確度"
 
-#: ./content/temple.py:484
+#: ./content/temple.py:477
 msgid "YiMingMiaoYu"
 msgstr "移民廟宇"
 
-#: ./content/temple.py:496
+#: ./content/temple.py:489
 msgid "YiMingMiaoYu Other"
 msgstr "移民廟宇 (其他)"
+
+#: ./content/vocabularies.py:178
+msgid "YiMingXY"
+msgstr ""
+
+#: ./content/vocabularies.py:232
+msgid "YinYangG"
+msgstr ""
+
+#: ./content/vocabularies.py:50
+msgid "YingShen"
+msgstr ""
 
 #: ./skins/crgis_styles/validate_photo_metadata.vpy:18
 msgid "You must provide content titles"
 msgstr "標題是必填欄位"
 
-#: ./content/vocabularies.py:513
+#: ./content/vocabularies.py:125
+msgid "YuErSM"
+msgstr ""
+
+#: ./content/vocabularies.py:59
+msgid "YuHuangDD"
+msgstr ""
+
+#: ./content/vocabularies.py:102
+msgid "YuanShiTZ"
+msgstr ""
+
+#: ./content/vocabularies.py:240
+msgid "YuanTongZZTZ"
+msgstr ""
+
+#: ./content/vocabularies.py:144
+msgid "YueFeiW"
+msgstr ""
+
+#: ./content/temple.py:621
+msgid "YungS WangTsuan"
+msgstr ""
+
+#: ./content/vocabularies.py:150
+msgid "ZhangFZG"
+msgstr ""
+
+#: ./content/vocabularies.py:159
+msgid "ZhangJinHua"
+msgstr ""
+
+#: ./content/vocabularies.py:191
+msgid "ZhangLSFZ"
+msgstr ""
+
+#: ./content/vocabularies.py:160
+msgid "ZhangTS"
+msgstr ""
+
+#: ./content/vocabularies.py:209
+msgid "ZhangXuEYS"
+msgstr ""
+
+#: ./content/vocabularies.py:72
+msgid "ZhangXun"
+msgstr ""
+
+#: ./content/vocabularies.py:506
 msgid "ZhaoBi"
 msgstr "照壁"
 
-#: ./content/vocabularies.py:561
+#: ./content/vocabularies.py:124
+msgid "ZhaoGongMing"
+msgstr ""
+
+#: ./content/vocabularies.py:220
+msgid "ZhaoKuangYing"
+msgstr ""
+
+#: ./content/vocabularies.py:183
+msgid "ZhaoZiLong"
+msgstr ""
+
+#: ./content/vocabularies.py:554
 msgid "ZhenFeng"
 msgstr "鎮風"
 
-#: ./content/vocabularies.py:562
+#: ./content/vocabularies.py:555
 msgid "ZhenShui"
 msgstr "鎮水 (擋水箭)"
 
-#: ./content/vocabularies.py:515
+#: ./content/vocabularies.py:74
+msgid "ZhengBaoHuei"
+msgstr ""
+
+#: ./content/vocabularies.py:64
+msgid "ZhengChenGong"
+msgstr ""
+
+#: ./content/vocabularies.py:508
 msgid "ZhiWu"
 msgstr "植物"
 
+#: ./content/vocabularies.py:128
+msgid "ZhongKuei"
+msgstr ""
+
+#: ./content/vocabularies.py:141
+msgid "ZhouCang"
+msgstr ""
+
+#: ./content/vocabularies.py:168
+msgid "ZhuShengNN"
+msgstr ""
+
+#: ./content/vocabularies.py:217
+msgid "ZhuXiG"
+msgstr ""
+
+#: ./content/vocabularies.py:216
+msgid "ZhuYiGuei"
+msgstr ""
+
+#: ./content/vocabularies.py:177
+msgid "ZhuenTiPS"
+msgstr ""
+
 #. Default: "Academic"
-#: ./browser/temple.pt:195
+#: ./browser/temple.pt:192
 msgid "academic"
 msgstr "學術著作"
 
 #. Default: "Address:"
-#: ./browser/temple.pt:60
+#: ./browser/temple.pt:57
 msgid "address"
 msgstr "地址："
 
 #. Default: "Antiquity:"
-#: ./browser/temple.pt:179
+#: ./browser/temple.pt:176
 msgid "antiquity"
 msgstr "古物與文物："
 
 #. Default: "Appendix Info"
-#: ./browser/temple.pt:30
+#: ./browser/temple.pt:28
 msgid "appendix_info"
 msgstr "附表"
 
@@ -1018,98 +1834,138 @@ msgid "base_size"
 msgstr "底座尺寸"
 
 #. Default: "Basic Info"
-#: ./browser/temple.pt:46
+#: ./browser/temple.pt:43
 msgid "basic_info"
 msgstr "寺廟基本資料"
 
+#. Default: "Buddhism"
+#: ./content/vocabularies.py:273
+msgid "bd_bd"
+msgstr ""
+
+#. Default: "Folk"
+#: ./content/vocabularies.py:274
+msgid "bd_fk"
+msgstr ""
+
+#. Default: "IKuanTao"
+#: ./content/vocabularies.py:275
+msgid "bd_ik"
+msgstr ""
+
+#. Default: "Other"
+#: ./content/vocabularies.py:280
+msgid "bd_ot"
+msgstr ""
+
+#. Default: "PhoenixHall"
+#: ./content/vocabularies.py:278
+msgid "bd_ph"
+msgstr ""
+
+#. Default: "Private"
+#: ./content/vocabularies.py:276
+msgid "bd_pv"
+msgstr ""
+
+#. Default: "Taoism"
+#: ./content/vocabularies.py:279
+msgid "bd_to"
+msgstr ""
+
+#. Default: "VegetarianHall"
+#: ./content/vocabularies.py:277
+msgid "bd_vh"
+msgstr ""
+
 #. Default: "BiXieWu Info"
 #: ./browser/bixiewu.pt:26
-#: ./browser/temple.pt:39
+#: ./browser/temple.pt:36
 msgid "bixiewu_info"
 msgstr "辟邪物"
 
 #. Default: "Booking Info"
-#: ./browser/temple.pt:205
+#: ./browser/temple.pt:202
 msgid "booking_info"
 msgstr "填表資料"
 
-#: ./content/vocabularies.py:530
+#: ./content/vocabularies.py:523
 msgid "brick"
 msgstr "磚材"
 
 #. Default: "Building:"
-#: ./browser/temple.pt:139
+#: ./browser/temple.pt:136
 msgid "building"
 msgstr "寺廟性質："
 
 #. Default: "Building (Other):"
-#: ./browser/temple.pt:143
+#: ./browser/temple.pt:140
 msgid "building_o"
 msgstr "寺廟性質(其他)："
 
-#: ./content/vocabularies.py:531
+#: ./content/vocabularies.py:524
 msgid "ceramics"
 msgstr "陶瓷"
 
-#: ./content/vocabularies.py:529
+#: ./content/vocabularies.py:522
 msgid "coment"
 msgstr "水泥"
 
-#: ./content/vocabularies.py:602
+#: ./content/vocabularies.py:595
 msgid "crouching"
 msgstr "蹲踞"
 
 #. Default: "Default Info"
-#: ./browser/temple.pt:27
+#: ./browser/temple.pt:26
 msgid "default_info"
 msgstr "寺廟資料表"
 
 #. Default: "Secondary Deities:"
-#: ./browser/temple.pt:91
+#: ./browser/temple.pt:88
 msgid "deity_guest"
 msgstr "陪祀神明："
 
 #. Default: "Primary Deities:"
-#: ./browser/temple.pt:76
+#: ./browser/temple.pt:73
 msgid "deity_host"
 msgstr "主祀神明："
 
 #. Default: "Primary Deity Alias:"
-#: ./browser/temple.pt:86
+#: ./browser/temple.pt:83
 msgid "deity_host_a"
 msgstr "對主祀神明的稱呼："
 
 #. Default: "Primary Deities (Other):"
-#: ./browser/temple.pt:82
+#: ./browser/temple.pt:79
 msgid "deity_host_o"
 msgstr "主祀神明 (其他)："
 
 #. Default: "Deities (Other):"
-#: ./browser/temple.pt:123
+#: ./browser/temple.pt:120
 msgid "deity_o"
 msgstr "奉祀神明 (主神之外)："
 
 #. Default: "Established Year:"
-#: ./browser/temple.pt:98
+#: ./browser/temple.pt:95
 msgid "era"
 msgstr "創立年代 (西元年)："
 
 #. Default: "Established Year (Collection):"
-#: ./browser/temple.pt:102
+#: ./browser/temple.pt:99
 msgid "era_1"
 msgstr "創立年代 (臺灣寺廟大全)："
 
 #. Default: "Established Year (Overview):"
-#: ./browser/temple.pt:106
+#: ./browser/temple.pt:103
 msgid "era_2"
 msgstr "創立年代 (臺灣寺廟概覽)："
 
 #. Default: "Established Year Ref:"
-#: ./browser/temple.pt:110
+#: ./browser/temple.pt:107
 msgid "era_ref"
 msgstr "創立年代參考文獻："
 
-#: ./content/vocabularies.py:617
+#: ./content/vocabularies.py:610
 msgid "female"
 msgstr "雌獅"
 
@@ -1124,126 +1980,491 @@ msgid "fengshiye_info"
 msgstr "風獅爺資訊"
 
 #. Default: "Festival Info"
-#: ./browser/temple.pt:36
+#: ./browser/temple.pt:33
 msgid "festival_info"
 msgstr "廟會節慶"
 
 #. Default: "By When"
-#: ./browser/temple.pt:211
+#: ./browser/temple.pt:208
 msgid "fill_date"
 msgstr "填表日期"
 
 #. Default: "By Who"
-#: ./browser/temple.pt:207
+#: ./browser/temple.pt:204
 msgid "fill_in"
 msgstr "填表人姓名"
 
-#: ./content/temple.py:51
+#. Default: "MZ"
+#: ./content/vocabularies.py:346
+msgid "flxt10"
+msgstr ""
+
+#. Default: "MZ BGC"
+#: ./content/vocabularies.py:347
+msgid "flxt11"
+msgstr ""
+
+#. Default: "MZ XGF"
+#: ./content/vocabularies.py:348
+msgid "flxt12"
+msgstr ""
+
+#. Default: "MZ LGT"
+#: ./content/vocabularies.py:349
+msgid "flxt13"
+msgstr ""
+
+#. Default: "MZ GDT"
+#: ./content/vocabularies.py:350
+msgid "flxt14"
+msgstr ""
+
+#. Default: "MZ ZLG"
+#: ./content/vocabularies.py:351
+msgid "flxt15"
+msgstr ""
+
+#. Default: "MZ NYG"
+#: ./content/vocabularies.py:352
+msgid "flxt16"
+msgstr ""
+
+#. Default: "MZ YCL"
+#: ./content/vocabularies.py:353
+msgid "flxt17"
+msgstr ""
+
+#. Default: "MZ TND"
+#: ./content/vocabularies.py:354
+msgid "flxt18"
+msgstr ""
+
+#. Default: "MZ PTG"
+#: ./content/vocabularies.py:355
+msgid "flxt19"
+msgstr ""
+
+#. Default: "MZ GKG"
+#: ./content/vocabularies.py:356
+msgid "flxt20"
+msgstr ""
+
+#. Default: "MZ TAG"
+#: ./content/vocabularies.py:357
+msgid "flxt21"
+msgstr ""
+
+#. Default: "MZ OT"
+#: ./content/vocabularies.py:358
+msgid "flxt22"
+msgstr ""
+
+#. Default: "WY"
+#: ./content/vocabularies.py:359
+msgid "flxt30"
+msgstr ""
+
+#. Default: "WY NKS"
+#: ./content/vocabularies.py:360
+msgid "flxt31"
+msgstr ""
+
+#. Default: "WY MAD"
+#: ./content/vocabularies.py:361
+msgid "flxt32"
+msgstr ""
+
+#. Default: "WY DLG"
+#: ./content/vocabularies.py:362
+msgid "flxt33"
+msgstr ""
+
+#. Default: "WY MMS"
+#: ./content/vocabularies.py:363
+msgid "flxt34"
+msgstr ""
+
+#. Default: "WY AXF"
+#: ./content/vocabularies.py:364
+msgid "flxt35"
+msgstr ""
+
+#. Default: "WY GST"
+#: ./content/vocabularies.py:365
+msgid "flxt36"
+msgstr ""
+
+#. Default: "WY BOX"
+#: ./content/vocabularies.py:366
+msgid "flxt37"
+msgstr ""
+
+#. Default: "WY LGG"
+#: ./content/vocabularies.py:367
+msgid "flxt38"
+msgstr ""
+
+#. Default: "WY FSG"
+#: ./content/vocabularies.py:368
+msgid "flxt39"
+msgstr ""
+
+#. Default: "WY OT"
+#: ./content/vocabularies.py:369
+msgid "flxt40"
+msgstr ""
+
+#. Default: "WY BHG"
+#: ./content/vocabularies.py:370
+msgid "flxt41"
+msgstr ""
+
+#. Default: "GY"
+#: ./content/vocabularies.py:371
+msgid "flxt50"
+msgstr ""
+
+#. Default: "GY LSS"
+#: ./content/vocabularies.py:372
+msgid "flxt51"
+msgstr ""
+
+#. Default: "GY CFS"
+#: ./content/vocabularies.py:373
+msgid "flxt52"
+msgstr ""
+
+#. Default: "GY LHY"
+#: ./content/vocabularies.py:374
+msgid "flxt53"
+msgstr ""
+
+#. Default: "GY BYS"
+#: ./content/vocabularies.py:375
+msgid "flxt54"
+msgstr ""
+
+#. Default: "GY DXS"
+#: ./content/vocabularies.py:376
+msgid "flxt55"
+msgstr ""
+
+#. Default: "GY ZZS"
+#: ./content/vocabularies.py:377
+msgid "flxt56"
+msgstr ""
+
+#. Default: "GY ZYS"
+#: ./content/vocabularies.py:378
+msgid "flxt57"
+msgstr ""
+
+#. Default: "GY ZYY"
+#: ./content/vocabularies.py:379
+msgid "flxt58"
+msgstr ""
+
+#. Default: "GY QSY"
+#: ./content/vocabularies.py:380
+msgid "flxt59"
+msgstr ""
+
+#. Default: "GY OT"
+#: ./content/vocabularies.py:381
+msgid "flxt60"
+msgstr ""
+
+#. Default: "OT"
+#: ./content/vocabularies.py:384
+msgid "flxt70"
+msgstr ""
+
+#. Default: "OT GZXL"
+#: ./content/vocabularies.py:385
+msgid "flxt71"
+msgstr ""
+
+#. Default: "OT GZYH"
+#: ./content/vocabularies.py:386
+msgid "flxt72"
+msgstr ""
+
+#. Default: "OT XTSB"
+#: ./content/vocabularies.py:387
+msgid "flxt73"
+msgstr ""
+
+#. Default: "OT XTWD"
+#: ./content/vocabularies.py:388
+msgid "flxt74"
+msgstr ""
+
+#. Default: "OT BSDD"
+#: ./content/vocabularies.py:389
+msgid "flxt75"
+msgstr ""
+
+#. Default: "OT ZTYS"
+#: ./content/vocabularies.py:390
+msgid "flxt76"
+msgstr ""
+
+#. Default: "OT SSGW"
+#: ./content/vocabularies.py:391
+msgid "flxt77"
+msgstr ""
+
+#. Default: "WM SAG"
+#: ./content/vocabularies.py:382
+msgid "flxt81"
+msgstr ""
+
+#. Default: "WM CHT"
+#: ./content/vocabularies.py:383
+msgid "flxt82"
+msgstr ""
+
+#: ./content/temple.py:50
 msgid "for example North 20 degree."
 msgstr "說明：如北方「20度」,西南方「190度」。"
 
 #. Default: "Funding:"
-#: ./browser/temple.pt:155
+#: ./browser/temple.pt:152
 msgid "funding"
 msgstr "建別："
 
 #. Default: "History:"
-#: ./browser/temple.pt:115
+#: ./browser/temple.pt:112
 msgid "history"
 msgstr "建立沿革："
 
 #. Default: "Homepage:"
-#: ./browser/temple.pt:68
+#: ./browser/temple.pt:65
 msgid "homepage"
 msgstr "網址："
 
 #. Default: "Person in Charge:"
-#: ./browser/temple.pt:167
+#: ./browser/temple.pt:164
 msgid "in_charge"
 msgstr "負責人："
 
 #. Default: "Introduction:"
-#: ./browser/temple.pt:119
+#: ./browser/temple.pt:116
 msgid "introduction"
 msgstr "簡介與相關照片："
 
-#. Default: "Choose your files :"
-#: ./browser/quick_upload.pt:19
-msgid "label_choose_your_files"
-msgstr "選擇圖片檔案:"
+#. Default: "QZ"
+#: ./content/vocabularies.py:321
+msgid "jstq10"
+msgstr ""
 
-#. Default: "Clear Queue"
-#: ./browser/quick_upload.pt:41
-msgid "label_clear_queue"
-msgstr "清除選擇"
+#. Default: "QZ SY"
+#: ./content/vocabularies.py:322
+msgid "jstq11"
+msgstr ""
 
-#. Default: "Upload Photos"
-#: ./browser/quick_upload.pt:35
-msgid "label_upload_files"
-msgstr "上傳圖片"
+#. Default: "QZ TA"
+#: ./content/vocabularies.py:323
+msgid "jstq12"
+msgstr ""
+
+#. Default: "QZ AX"
+#: ./content/vocabularies.py:324
+msgid "jstq13"
+msgstr ""
+
+#. Default: "ZZ"
+#: ./content/vocabularies.py:325
+msgid "jstq20"
+msgstr ""
+
+#. Default: "ZZ FL"
+#: ./content/vocabularies.py:326
+msgid "jstq21"
+msgstr ""
+
+#. Default: "ZZ KJ"
+#: ./content/vocabularies.py:327
+msgid "jstq22"
+msgstr ""
+
+#. Default: "GD"
+#: ./content/vocabularies.py:328
+msgid "jstq30"
+msgstr ""
+
+#. Default: "GD CZ"
+#: ./content/vocabularies.py:329
+msgid "jstq31"
+msgstr ""
+
+#. Default: "GD JY"
+#: ./content/vocabularies.py:330
+msgid "jstq32"
+msgstr ""
+
+#. Default: "GD HZ"
+#: ./content/vocabularies.py:331
+msgid "jstq33"
+msgstr ""
+
+#. Default: "GD FL"
+#: ./content/vocabularies.py:332
+msgid "jstq34"
+msgstr ""
+
+#. Default: "OT PPZ"
+#: ./content/vocabularies.py:333
+msgid "jstq41"
+msgstr ""
+
+#. Default: "OT DZK"
+#: ./content/vocabularies.py:334
+msgid "jstq42"
+msgstr ""
+
+#. Default: "OT ZHYM"
+#: ./content/vocabularies.py:335
+msgid "jstq43"
+msgstr ""
 
 #. Default: "Literature"
-#: ./browser/temple.pt:199
+#: ./browser/temple.pt:196
 msgid "literature"
 msgstr "相關書目"
 
-#: ./content/vocabularies.py:603
+#. Default: "NO"
+#: ./content/vocabularies.py:483
+msgid "luck00"
+msgstr ""
+
+#. Default: "ST"
+#: ./content/vocabularies.py:484
+msgid "luck01"
+msgstr ""
+
+#. Default: "HD"
+#: ./content/vocabularies.py:485
+msgid "luck02"
+msgstr ""
+
+#. Default: "OT"
+#: ./content/vocabularies.py:486
+msgid "luck03"
+msgstr ""
+
+#: ./content/vocabularies.py:596
 msgid "lying"
 msgstr "趴姿"
 
-#: ./content/vocabularies.py:616
+#: ./content/vocabularies.py:609
 msgid "male"
 msgstr "雄獅"
 
+#. Default: "NO"
+#: ./content/vocabularies.py:467
+msgid "medicine00"
+msgstr ""
+
+#. Default: "DR"
+#: ./content/vocabularies.py:468
+msgid "medicine01"
+msgstr ""
+
+#. Default: "XE"
+#: ./content/vocabularies.py:469
+msgid "medicine02"
+msgstr ""
+
+#. Default: "FK"
+#: ./content/vocabularies.py:470
+msgid "medicine03"
+msgstr ""
+
+#. Default: "YK"
+#: ./content/vocabularies.py:471
+msgid "medicine04"
+msgstr ""
+
+#. Default: "OT"
+#: ./content/vocabularies.py:472
+msgid "medicine05"
+msgstr ""
+
 #. Default: "MOI Registry Info"
-#: ./browser/temple.pt:133
+#: ./browser/temple.pt:130
 msgid "moi_info"
 msgstr "內政部寺廟登記資料"
 
-#: ./content/vocabularies.py:528
+#: ./content/vocabularies.py:521
 msgid "mud"
 msgstr "泥塑"
 
 #. Default: "Narrate:"
-#: ./browser/temple.pt:183
+#: ./browser/temple.pt:180
 msgid "narrate"
 msgstr "敘事性裝飾題材"
 
-#: ./content/vocabularies.py:577
+#. Default: "GDMZ"
+#: ./content/vocabularies.py:435
+msgid "nlqs01"
+msgstr ""
+
+#. Default: "BGMZ"
+#: ./content/vocabularies.py:436
+msgid "nlqs02"
+msgstr ""
+
+#. Default: "XGMZ"
+#: ./content/vocabularies.py:437
+msgid "nlqs03"
+msgstr ""
+
+#. Default: "ZHMZ"
+#: ./content/vocabularies.py:438
+msgid "nlqs04"
+msgstr ""
+
+#. Default: "WNQS"
+#: ./content/vocabularies.py:439
+msgid "nlqs05"
+msgstr ""
+
+#: ./content/vocabularies.py:570
 msgid "no"
 msgstr "無"
 
 #. Default: "Non Narrate:"
-#: ./browser/temple.pt:187
+#: ./browser/temple.pt:184
 msgid "non_narrate"
 msgstr "非敘事性人物裝飾"
 
 #. Default: "Organizing:"
-#: ./browser/temple.pt:159
+#: ./browser/temple.pt:156
 msgid "organizing"
 msgstr "組織型態："
 
 #. Default: "Organizing (Other):"
-#: ./browser/temple.pt:163
+#: ./browser/temple.pt:160
 msgid "organizing_o"
 msgstr "組織型態 (其他)："
 
-#: ./content/vocabularies.py:516
+#: ./content/vocabularies.py:509
 msgid "other"
 msgstr "其他"
 
 #. Default: "Outlook"
-#: ./browser/temple.pt:173
+#: ./browser/temple.pt:170
 msgid "outlook"
 msgstr "建築與飾物"
 
 #. Default: "Overview:"
-#: ./browser/temple.pt:175
+#: ./browser/temple.pt:172
 msgid "overview"
 msgstr "建築概況："
 
 #. Default: "Pilgrimage Info"
-#: ./browser/temple.pt:33
+#: ./browser/temple.pt:30
 msgid "pilgrimage_info"
 msgstr "遶境"
 
@@ -1252,17 +2473,17 @@ msgstr "遶境"
 msgid "profile_bixiewu"
 msgstr "辟邪物表單"
 
-#: ./content/vocabularies.py:605
+#: ./content/vocabularies.py:598
 msgid "reclining"
 msgstr "斜躺"
 
 #. Default: "References"
-#: ./browser/temple.pt:193
+#: ./browser/temple.pt:190
 msgid "references"
 msgstr "參考資料"
 
 #. Default: "Registered Name:"
-#: ./browser/temple.pt:135
+#: ./browser/temple.pt:132
 msgid "registered"
 msgstr "登記名稱："
 
@@ -1272,16 +2493,61 @@ msgid "related_temples"
 msgstr "相關寺廟"
 
 #. Default: "Religion:"
-#: ./browser/temple.pt:147
+#: ./browser/temple.pt:144
 msgid "religion"
 msgstr "教別："
 
 #. Default: "Religion (Other):"
-#: ./browser/temple.pt:151
+#: ./browser/temple.pt:148
 msgid "religion_o"
 msgstr "教別 (其他)："
 
-#: ./content/vocabularies.py:590
+#. Default: "Buddhism"
+#: ./content/vocabularies.py:254
+msgid "rl_bd"
+msgstr ""
+
+#. Default: "Confucianism"
+#: ./content/vocabularies.py:256
+msgid "rl_cf"
+msgstr ""
+
+#. Default: "IKuanTao"
+#: ./content/vocabularies.py:258
+msgid "rl_ik"
+msgstr ""
+
+#. Default: "Liism"
+#: ./content/vocabularies.py:257
+msgid "rl_li"
+msgstr ""
+
+#. Default: "Other"
+#: ./content/vocabularies.py:262
+msgid "rl_ot"
+msgstr ""
+
+#. Default: "SyuanYuanJiao"
+#: ./content/vocabularies.py:261
+msgid "rl_sy"
+msgstr ""
+
+#. Default: "Taoism"
+#: ./content/vocabularies.py:255
+msgid "rl_to"
+msgstr ""
+
+#. Default: "TenRiKyo"
+#: ./content/vocabularies.py:260
+msgid "rl_tr"
+msgstr ""
+
+#. Default: "TienTi"
+#: ./content/vocabularies.py:259
+msgid "rl_tt"
+msgstr ""
+
+#: ./content/vocabularies.py:583
 msgid "roof"
 msgstr "屋脊型"
 
@@ -1290,56 +2556,155 @@ msgstr "屋脊型"
 msgid "shi_size"
 msgstr "獅子尺寸"
 
-#: ./content/vocabularies.py:604
+#: ./content/vocabularies.py:597
 msgid "sitting"
 msgstr "坐姿"
 
-#: ./content/vocabularies.py:601
+#: ./content/vocabularies.py:594
 msgid "standing"
 msgstr "立姿"
 
-#: ./content/vocabularies.py:527
+#: ./content/vocabularies.py:520
 msgid "stone"
 msgstr "石頭"
 
 #. Default: "Telephone:"
-#: ./browser/temple.pt:64
+#: ./browser/temple.pt:61
 msgid "tel"
 msgstr "電話："
 
-#: ./content/vocabularies.py:618
+#: ./content/vocabularies.py:611
 msgid "unknown"
 msgstr "不明"
 
 #. Default: "View Homepage"
-#: ./browser/temple.pt:69
+#: ./browser/temple.pt:66
 msgid "view_homepage"
 msgstr "瀏覽寺廟官方網頁"
 
 #. Default: "View on Map"
 #: ./browser/bixiewu.pt:17
-#: ./browser/temple.pt:18
+#: ./browser/temple.pt:17
 msgid "view_on_map"
 msgstr "在地圖上檢視"
 
-#: ./content/vocabularies.py:588
+#: ./content/vocabularies.py:581
 msgid "village"
 msgstr "村落型"
 
-#: ./content/vocabularies.py:589
+#: ./content/vocabularies.py:582
 msgid "wall"
 msgstr "牆垣型"
 
-#: ./content/vocabularies.py:532
+#: ./content/vocabularies.py:525
 msgid "wood"
 msgstr "木頭"
 
 #. Default: "Worship:"
-#: ./browser/temple.pt:127
+#: ./browser/temple.pt:124
 msgid "worship"
 msgstr "祭祀活動："
 
-#: ./content/vocabularies.py:576
+#. Default: "SC"
+#: ./content/vocabularies.py:450
+msgid "wyxx01"
+msgstr ""
+
+#. Default: "QWF"
+#: ./content/vocabularies.py:451
+msgid "wyxx02"
+msgstr ""
+
+#. Default: "QWN"
+#: ./content/vocabularies.py:452
+msgid "wyxx03"
+msgstr ""
+
+#. Default: "WCF"
+#: ./content/vocabularies.py:453
+msgid "wyxx04"
+msgstr ""
+
+#. Default: "WCN"
+#: ./content/vocabularies.py:454
+msgid "wyxx05"
+msgstr ""
+
+#. Default: "WJ"
+#: ./content/vocabularies.py:455
+msgid "wyxx06"
+msgstr ""
+
+#. Default: "OT"
+#: ./content/vocabularies.py:456
+msgid "wyxx07"
+msgstr ""
+
+#. Default: "ZX"
+#: ./content/vocabularies.py:416
+msgid "xhly01"
+msgstr ""
+
+#. Default: "XH"
+#: ./content/vocabularies.py:417
+msgid "xhly02"
+msgstr ""
+
+#. Default: "BK"
+#: ./content/vocabularies.py:418
+msgid "xhly03"
+msgstr ""
+
+#. Default: "SM"
+#: ./content/vocabularies.py:419
+msgid "xhly04"
+msgstr ""
+
+#. Default: "WC"
+#: ./content/vocabularies.py:420
+msgid "xhly05"
+msgstr ""
+
+#. Default: "NS"
+#: ./content/vocabularies.py:421
+msgid "xhly06"
+msgstr ""
+
+#. Default: "FL"
+#: ./content/vocabularies.py:422
+msgid "xhly07"
+msgstr ""
+
+#. Default: "ZS"
+#: ./content/vocabularies.py:423
+msgid "xhly08"
+msgstr ""
+
+#. Default: "AZ"
+#: ./content/vocabularies.py:424
+msgid "xhly09"
+msgstr ""
+
+#: ./content/vocabularies.py:569
 msgid "yes"
 msgstr "有"
 
+#. Default: "PHM"
+#: ./content/vocabularies.py:402
+msgid "ymmy01"
+msgstr ""
+
+#. Default: "DCM"
+#: ./content/vocabularies.py:403
+msgid "ymmy02"
+msgstr ""
+
+#. Default: "APM"
+#: ./content/vocabularies.py:404
+msgid "ymmy03"
+msgstr ""
+
+#. Default: "DSM"
+#: ./content/vocabularies.py:405
+msgid "ymmy04"
+msgstr ""
